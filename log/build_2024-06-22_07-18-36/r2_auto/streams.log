@@ -1,0 +1,32 @@
+[5.029s] Invoking command in '/home/eduhkrobotic2/r2_ros/src/r2_auto': PYTHONPATH=/home/eduhkrobotic2/r2_ros/build/r2_auto/prefix_override:/home/eduhkrobotic2/r2_ros/install/r2_auto/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/r2_auto build --build-base /home/eduhkrobotic2/r2_ros/build/r2_auto/build install --record /home/eduhkrobotic2/r2_ros/build/r2_auto/install.log --single-version-externally-managed install_data
+[6.464s] running egg_info
+[6.561s] writing ../../build/r2_auto/r2_auto.egg-info/PKG-INFO
+[6.564s] writing dependency_links to ../../build/r2_auto/r2_auto.egg-info/dependency_links.txt
+[6.566s] writing entry points to ../../build/r2_auto/r2_auto.egg-info/entry_points.txt
+[6.568s] writing requirements to ../../build/r2_auto/r2_auto.egg-info/requires.txt
+[6.568s] writing top-level names to ../../build/r2_auto/r2_auto.egg-info/top_level.txt
+[6.768s] reading manifest file '../../build/r2_auto/r2_auto.egg-info/SOURCES.txt'
+[6.773s] writing manifest file '../../build/r2_auto/r2_auto.egg-info/SOURCES.txt'
+[6.775s] running build
+[6.776s] running build_py
+[6.778s] copying r2_auto/omni_pid.py -> /home/eduhkrobotic2/r2_ros/build/r2_auto/build/lib/r2_auto
+[6.780s] copying r2_auto/r2_main.py -> /home/eduhkrobotic2/r2_ros/build/r2_auto/build/lib/r2_auto
+[6.781s] copying r2_auto/__init__.py -> /home/eduhkrobotic2/r2_ros/build/r2_auto/build/lib/r2_auto
+[6.782s] copying r2_auto/r2_ps4.py -> /home/eduhkrobotic2/r2_ros/build/r2_auto/build/lib/r2_auto
+[6.784s] running install
+[6.812s] running install_lib
+[6.913s] copying /home/eduhkrobotic2/r2_ros/build/r2_auto/build/lib/r2_auto/r2_ps4.py -> /home/eduhkrobotic2/r2_ros/install/r2_auto/lib/python3.10/site-packages/r2_auto
+[6.918s] byte-compiling /home/eduhkrobotic2/r2_ros/install/r2_auto/lib/python3.10/site-packages/r2_auto/r2_ps4.py to r2_ps4.cpython-310.pyc
+[6.920s] Sorry: TabError: inconsistent use of tabs and spaces in indentation (r2_ps4.py, line 72)
+[6.920s] running install_data
+[6.921s] copying resource/r2_auto -> /home/eduhkrobotic2/r2_ros/install/r2_auto/share/ament_index/resource_index/packages
+[6.922s] copying package.xml -> /home/eduhkrobotic2/r2_ros/install/r2_auto/share/r2_auto
+[6.923s] running install_egg_info
+[7.026s] removing '/home/eduhkrobotic2/r2_ros/install/r2_auto/lib/python3.10/site-packages/r2_auto-0.0.0-py3.10.egg-info' (and everything under it)
+[7.028s] Copying ../../build/r2_auto/r2_auto.egg-info to /home/eduhkrobotic2/r2_ros/install/r2_auto/lib/python3.10/site-packages/r2_auto-0.0.0-py3.10.egg-info
+[7.035s] running install_scripts
+[7.921s] Installing omni_pid script to /home/eduhkrobotic2/r2_ros/install/r2_auto/lib/r2_auto
+[7.923s] Installing r2_main_node script to /home/eduhkrobotic2/r2_ros/install/r2_auto/lib/r2_auto
+[7.924s] Installing r2_ps4_node script to /home/eduhkrobotic2/r2_ros/install/r2_auto/lib/r2_auto
+[7.926s] writing list of installed files to '/home/eduhkrobotic2/r2_ros/build/r2_auto/install.log'
+[8.084s] Invoked command in '/home/eduhkrobotic2/r2_ros/src/r2_auto' returned '0': PYTHONPATH=/home/eduhkrobotic2/r2_ros/build/r2_auto/prefix_override:/home/eduhkrobotic2/r2_ros/install/r2_auto/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/r2_auto build --build-base /home/eduhkrobotic2/r2_ros/build/r2_auto/build install --record /home/eduhkrobotic2/r2_ros/build/r2_auto/install.log --single-version-externally-managed install_data

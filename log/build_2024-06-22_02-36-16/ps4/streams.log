@@ -1,0 +1,30 @@
+[11.640s] Invoking command in '/home/eduhkrobotic2/r2_ros/build/ps4': PYTHONPATH=/home/eduhkrobotic2/r2_ros/build/ps4/prefix_override:/home/eduhkrobotic2/r2_ros/install/ps4/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/eduhkrobotic2/r2_ros/build/ps4/build --no-deps symlink_data
+[16.057s] running develop
+[16.060s] /home/eduhkrobotic2/.local/lib/python3.10/site-packages/setuptools/command/develop.py:40: EasyInstallDeprecationWarning: easy_install command is deprecated.
+[16.062s] !!
+[16.063s] 
+[16.064s]         ********************************************************************************
+[16.066s]         Please avoid running ``setup.py`` and ``easy_install``.
+[16.067s]         Instead, use pypa/build, pypa/installer or other
+[16.069s]         standards-based tools.
+[16.074s] 
+[16.075s]         See https://github.com/pypa/setuptools/issues/917 for details.
+[16.080s]         ********************************************************************************
+[16.086s] 
+[16.087s] !!
+[16.087s]   easy_install.initialize_options(self)
+[18.653s] running egg_info
+[18.831s] writing ps4.egg-info/PKG-INFO
+[18.835s] writing dependency_links to ps4.egg-info/dependency_links.txt
+[18.838s] writing entry points to ps4.egg-info/entry_points.txt
+[18.840s] writing requirements to ps4.egg-info/requires.txt
+[18.842s] writing top-level names to ps4.egg-info/top_level.txt
+[19.309s] reading manifest file 'ps4.egg-info/SOURCES.txt'
+[19.315s] writing manifest file 'ps4.egg-info/SOURCES.txt'
+[19.808s] running build_ext
+[19.809s] Creating /home/eduhkrobotic2/r2_ros/install/ps4/lib/python3.10/site-packages/ps4.egg-link (link to .)
+[19.814s] Installing ps4_publisher script to /home/eduhkrobotic2/r2_ros/install/ps4/lib/ps4
+[19.815s] Installing ps4_subscriber script to /home/eduhkrobotic2/r2_ros/install/ps4/lib/ps4
+[19.817s] 
+[19.818s] Installed /home/eduhkrobotic2/r2_ros/build/ps4
+[19.820s] running symlink_data

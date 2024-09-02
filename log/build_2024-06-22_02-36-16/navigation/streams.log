@@ -1,0 +1,30 @@
+[10.330s] Invoking command in '/home/eduhkrobotic2/r2_ros/build/navigation': PYTHONPATH=/home/eduhkrobotic2/r2_ros/build/navigation/prefix_override:/home/eduhkrobotic2/r2_ros/install/navigation/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/eduhkrobotic2/r2_ros/build/navigation/build --no-deps symlink_data
+[15.036s] running develop
+[15.037s] /home/eduhkrobotic2/.local/lib/python3.10/site-packages/setuptools/command/develop.py:40: EasyInstallDeprecationWarning: easy_install command is deprecated.
+[15.038s] !!
+[15.039s] 
+[15.039s]         ********************************************************************************
+[15.039s]         Please avoid running ``setup.py`` and ``easy_install``.
+[15.040s]         Instead, use pypa/build, pypa/installer or other
+[15.040s]         standards-based tools.
+[15.041s] 
+[15.041s]         See https://github.com/pypa/setuptools/issues/917 for details.
+[15.042s]         ********************************************************************************
+[15.042s] 
+[15.043s] !!
+[15.043s]   easy_install.initialize_options(self)
+[18.678s] running egg_info
+[19.027s] writing navigation.egg-info/PKG-INFO
+[19.032s] writing dependency_links to navigation.egg-info/dependency_links.txt
+[19.036s] writing entry points to navigation.egg-info/entry_points.txt
+[19.040s] writing requirements to navigation.egg-info/requires.txt
+[19.041s] writing top-level names to navigation.egg-info/top_level.txt
+[19.980s] reading manifest file 'navigation.egg-info/SOURCES.txt'
+[19.989s] writing manifest file 'navigation.egg-info/SOURCES.txt'
+[20.362s] running build_ext
+[20.363s] Creating /home/eduhkrobotic2/r2_ros/install/navigation/lib/python3.10/site-packages/navigation.egg-link (link to .)
+[20.369s] Installing navigation_node script to /home/eduhkrobotic2/r2_ros/install/navigation/lib/navigation
+[20.371s] Installing omni_pid script to /home/eduhkrobotic2/r2_ros/install/navigation/lib/navigation
+[20.374s] 
+[20.375s] Installed /home/eduhkrobotic2/r2_ros/build/navigation
+[20.376s] running symlink_data

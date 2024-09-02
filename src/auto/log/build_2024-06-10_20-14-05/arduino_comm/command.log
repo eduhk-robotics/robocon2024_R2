@@ -1,0 +1,2 @@
+Invoking command in '/home/eduhkrobotic2/r2_ros/build/arduino_comm': /usr/bin/cmake /home/eduhkrobotic2/r2_ros/src/arduino_comm -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/eduhkrobotic2/r2_ros/install/arduino_comm
+Invoked command in '/home/eduhkrobotic2/r2_ros/build/arduino_comm' returned '1': /usr/bin/cmake /home/eduhkrobotic2/r2_ros/src/arduino_comm -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/eduhkrobotic2/r2_ros/install/arduino_comm

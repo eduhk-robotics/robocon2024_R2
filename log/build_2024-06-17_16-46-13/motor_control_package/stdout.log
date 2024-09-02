@@ -1,0 +1,17 @@
+running develop
+running egg_info
+writing motor_control_package.egg-info/PKG-INFO
+writing dependency_links to motor_control_package.egg-info/dependency_links.txt
+writing entry points to motor_control_package.egg-info/entry_points.txt
+writing requirements to motor_control_package.egg-info/requires.txt
+writing top-level names to motor_control_package.egg-info/top_level.txt
+reading manifest file 'motor_control_package.egg-info/SOURCES.txt'
+writing manifest file 'motor_control_package.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/eduhkrobotic2/r2_ros/install/motor_control_package/lib/python3.10/site-packages/motor-control-package.egg-link (link to .)
+Installing motor_control_publisher script to /home/eduhkrobotic2/r2_ros/install/motor_control_package/lib/motor_control_package
+Installing motor_control_subscriber script to /home/eduhkrobotic2/r2_ros/install/motor_control_package/lib/motor_control_package
+Installing motor_data_reader script to /home/eduhkrobotic2/r2_ros/install/motor_control_package/lib/motor_control_package
+
+Installed /home/eduhkrobotic2/r2_ros/build/motor_control_package
+running symlink_data

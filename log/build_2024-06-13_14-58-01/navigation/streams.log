@@ -1,0 +1,20 @@
+[6.278s] Invoking command in '/home/eduhkrobotic2/r2_ros/build/navigation': PYTHONPATH=/home/eduhkrobotic2/r2_ros/build/navigation/prefix_override:/home/eduhkrobotic2/r2_ros/install/navigation/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/eduhkrobotic2/r2_ros/build/navigation/build --no-deps symlink_data --force
+[7.986s] running develop
+[9.110s] running egg_info
+[9.112s] writing navigation.egg-info/PKG-INFO
+[9.114s] writing dependency_links to navigation.egg-info/dependency_links.txt
+[9.116s] writing entry points to navigation.egg-info/entry_points.txt
+[9.117s] writing requirements to navigation.egg-info/requires.txt
+[9.119s] writing top-level names to navigation.egg-info/top_level.txt
+[9.130s] reading manifest file 'navigation.egg-info/SOURCES.txt'
+[9.137s] writing manifest file 'navigation.egg-info/SOURCES.txt'
+[9.150s] running build_ext
+[9.151s] Creating /home/eduhkrobotic2/r2_ros/install/navigation/lib/python3.10/site-packages/navigation.egg-link (link to .)
+[9.159s] Installing navigation_node script to /home/eduhkrobotic2/r2_ros/install/navigation/lib/navigation
+[9.161s] Installing omni_pid script to /home/eduhkrobotic2/r2_ros/install/navigation/lib/navigation
+[9.164s] 
+[9.166s] Installed /home/eduhkrobotic2/r2_ros/build/navigation
+[9.168s] running symlink_data
+[9.170s] symbolically linking /home/eduhkrobotic2/r2_ros/build/navigation/resource/navigation -> /home/eduhkrobotic2/r2_ros/install/navigation/share/ament_index/resource_index/packages
+[9.172s] symbolically linking /home/eduhkrobotic2/r2_ros/build/navigation/package.xml -> /home/eduhkrobotic2/r2_ros/install/navigation/share/navigation
+[9.398s] Invoked command in '/home/eduhkrobotic2/r2_ros/build/navigation' returned '0': PYTHONPATH=/home/eduhkrobotic2/r2_ros/build/navigation/prefix_override:/home/eduhkrobotic2/r2_ros/install/navigation/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/eduhkrobotic2/r2_ros/build/navigation/build --no-deps symlink_data --force

@@ -1,0 +1,26 @@
+[3.165s] Invoking command in '/home/eduhkrobotic2/r2_ros/src/arduino_comm': PYTHONPATH=/home/eduhkrobotic2/r2_ros/build/motor_control_package/prefix_override:/home/eduhkrobotic2/r2_ros/install/motor_control_package/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/motor_control_package build --build-base /home/eduhkrobotic2/r2_ros/build/motor_control_package/build install --record /home/eduhkrobotic2/r2_ros/build/motor_control_package/install.log --single-version-externally-managed install_data
+[4.395s] running egg_info
+[4.398s] writing ../../build/motor_control_package/arduino_comm.egg-info/PKG-INFO
+[4.400s] writing dependency_links to ../../build/motor_control_package/arduino_comm.egg-info/dependency_links.txt
+[4.401s] writing entry points to ../../build/motor_control_package/arduino_comm.egg-info/entry_points.txt
+[4.402s] writing requirements to ../../build/motor_control_package/arduino_comm.egg-info/requires.txt
+[4.403s] writing top-level names to ../../build/motor_control_package/arduino_comm.egg-info/top_level.txt
+[4.413s] reading manifest file '../../build/motor_control_package/arduino_comm.egg-info/SOURCES.txt'
+[4.417s] writing manifest file '../../build/motor_control_package/arduino_comm.egg-info/SOURCES.txt'
+[4.417s] running build
+[4.418s] running build_py
+[4.419s] copying arduino_comm/motor_control_publisher.py -> /home/eduhkrobotic2/r2_ros/build/motor_control_package/build/lib/arduino_comm
+[4.420s] running install
+[4.422s] running install_lib
+[4.425s] copying /home/eduhkrobotic2/r2_ros/build/motor_control_package/build/lib/arduino_comm/motor_control_publisher.py -> /home/eduhkrobotic2/r2_ros/install/motor_control_package/lib/python3.10/site-packages/arduino_comm
+[4.429s] byte-compiling /home/eduhkrobotic2/r2_ros/install/motor_control_package/lib/python3.10/site-packages/arduino_comm/motor_control_publisher.py to motor_control_publisher.cpython-310.pyc
+[4.431s] running install_data
+[4.432s] running install_egg_info
+[4.439s] removing '/home/eduhkrobotic2/r2_ros/install/motor_control_package/lib/python3.10/site-packages/arduino_comm-0.0.0-py3.10.egg-info' (and everything under it)
+[4.441s] Copying ../../build/motor_control_package/arduino_comm.egg-info to /home/eduhkrobotic2/r2_ros/install/motor_control_package/lib/python3.10/site-packages/arduino_comm-0.0.0-py3.10.egg-info
+[4.447s] running install_scripts
+[4.526s] Installing motor_control_publisher script to /home/eduhkrobotic2/r2_ros/install/motor_control_package/lib/arduino_comm
+[4.527s] Installing motor_control_subscriber script to /home/eduhkrobotic2/r2_ros/install/motor_control_package/lib/arduino_comm
+[4.528s] Installing motor_data_reader script to /home/eduhkrobotic2/r2_ros/install/motor_control_package/lib/arduino_comm
+[4.530s] writing list of installed files to '/home/eduhkrobotic2/r2_ros/build/motor_control_package/install.log'
+[4.663s] Invoked command in '/home/eduhkrobotic2/r2_ros/src/arduino_comm' returned '0': PYTHONPATH=/home/eduhkrobotic2/r2_ros/build/motor_control_package/prefix_override:/home/eduhkrobotic2/r2_ros/install/motor_control_package/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/motor_control_package build --build-base /home/eduhkrobotic2/r2_ros/build/motor_control_package/build install --record /home/eduhkrobotic2/r2_ros/build/motor_control_package/install.log --single-version-externally-managed install_data

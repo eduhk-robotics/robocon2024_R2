@@ -1,0 +1,5 @@
+  File "/home/eduhkrobotic2/r2_ros/install/navigation/lib/python3.10/site-packages/navigation/navigation_node.py", line 51
+    if direction == 90 && rotation == 0:
+                        ^
+SyntaxError: invalid syntax
+

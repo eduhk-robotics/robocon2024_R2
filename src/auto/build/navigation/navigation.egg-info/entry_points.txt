@@ -1,0 +1,4 @@
+[console_scripts]
+navigation_node = navigation.navigation_node:main
+omni_pid = navigation.omni_pid:main
+

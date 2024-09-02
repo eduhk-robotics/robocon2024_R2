@@ -1,0 +1,19 @@
+running develop
+running egg_info
+writing r2_auto.egg-info/PKG-INFO
+writing dependency_links to r2_auto.egg-info/dependency_links.txt
+writing entry points to r2_auto.egg-info/entry_points.txt
+writing requirements to r2_auto.egg-info/requires.txt
+writing top-level names to r2_auto.egg-info/top_level.txt
+reading manifest file 'r2_auto.egg-info/SOURCES.txt'
+writing manifest file 'r2_auto.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/eduhkrobotic2/r2_ros/install/r2_auto/lib/python3.10/site-packages/r2-auto.egg-link (link to .)
+Installing omni_pid script to /home/eduhkrobotic2/r2_ros/install/r2_auto/lib/r2_auto
+Installing r2_main_node script to /home/eduhkrobotic2/r2_ros/install/r2_auto/lib/r2_auto
+Installing r2_ps4_node script to /home/eduhkrobotic2/r2_ros/install/r2_auto/lib/r2_auto
+
+Installed /home/eduhkrobotic2/r2_ros/build/r2_auto
+running symlink_data
+symbolically linking /home/eduhkrobotic2/r2_ros/build/r2_auto/resource/r2_auto -> /home/eduhkrobotic2/r2_ros/install/r2_auto/share/ament_index/resource_index/packages
+symbolically linking /home/eduhkrobotic2/r2_ros/build/r2_auto/package.xml -> /home/eduhkrobotic2/r2_ros/install/r2_auto/share/r2_auto

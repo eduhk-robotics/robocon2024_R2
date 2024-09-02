@@ -1,0 +1,21 @@
+running egg_info
+writing ../../build/motor_control_package/motor_control_package.egg-info/PKG-INFO
+writing dependency_links to ../../build/motor_control_package/motor_control_package.egg-info/dependency_links.txt
+writing entry points to ../../build/motor_control_package/motor_control_package.egg-info/entry_points.txt
+writing requirements to ../../build/motor_control_package/motor_control_package.egg-info/requires.txt
+writing top-level names to ../../build/motor_control_package/motor_control_package.egg-info/top_level.txt
+reading manifest file '../../build/motor_control_package/motor_control_package.egg-info/SOURCES.txt'
+writing manifest file '../../build/motor_control_package/motor_control_package.egg-info/SOURCES.txt'
+running build
+running build_py
+running install
+running install_lib
+running install_data
+running install_egg_info
+removing '/home/eduhkrobotic2/r2_ros/install/motor_control_package/lib/python3.10/site-packages/motor_control_package-0.0.0-py3.10.egg-info' (and everything under it)
+Copying ../../build/motor_control_package/motor_control_package.egg-info to /home/eduhkrobotic2/r2_ros/install/motor_control_package/lib/python3.10/site-packages/motor_control_package-0.0.0-py3.10.egg-info
+running install_scripts
+Installing motor_control_publisher script to /home/eduhkrobotic2/r2_ros/install/motor_control_package/lib/motor_control_package
+Installing motor_control_subscriber script to /home/eduhkrobotic2/r2_ros/install/motor_control_package/lib/motor_control_package
+Installing motor_data_reader script to /home/eduhkrobotic2/r2_ros/install/motor_control_package/lib/motor_control_package
+writing list of installed files to '/home/eduhkrobotic2/r2_ros/build/motor_control_package/install.log'

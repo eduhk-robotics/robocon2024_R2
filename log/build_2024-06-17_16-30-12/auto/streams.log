@@ -1,0 +1,17 @@
+[7.769s] Invoking command in '/home/eduhkrobotic2/r2_ros/build/auto': PYTHONPATH=/home/eduhkrobotic2/r2_ros/build/auto/prefix_override:/home/eduhkrobotic2/r2_ros/install/auto/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/eduhkrobotic2/r2_ros/build/auto/build --no-deps symlink_data
+[9.682s] running develop
+[10.931s] running egg_info
+[10.932s] writing auto.egg-info/PKG-INFO
+[10.940s] writing dependency_links to auto.egg-info/dependency_links.txt
+[10.941s] writing entry points to auto.egg-info/entry_points.txt
+[10.953s] writing requirements to auto.egg-info/requires.txt
+[10.954s] writing top-level names to auto.egg-info/top_level.txt
+[10.956s] reading manifest file 'auto.egg-info/SOURCES.txt'
+[10.960s] writing manifest file 'auto.egg-info/SOURCES.txt'
+[10.971s] running build_ext
+[10.972s] Creating /home/eduhkrobotic2/r2_ros/install/auto/lib/python3.10/site-packages/auto.egg-link (link to .)
+[10.987s] Installing webcam_node script to /home/eduhkrobotic2/r2_ros/install/auto/lib/auto
+[10.989s] 
+[10.996s] Installed /home/eduhkrobotic2/r2_ros/build/auto
+[10.999s] running symlink_data
+[11.469s] Invoked command in '/home/eduhkrobotic2/r2_ros/build/auto' returned '0': PYTHONPATH=/home/eduhkrobotic2/r2_ros/build/auto/prefix_override:/home/eduhkrobotic2/r2_ros/install/auto/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/eduhkrobotic2/r2_ros/build/auto/build --no-deps symlink_data

@@ -1,0 +1,39 @@
+running develop
+Removing /home/eduhkrobotic2/r2_ros/install/sensor/lib/python3.10/site-packages/sensor.egg-link (link to .)
+running egg_info
+writing ../../build/sensor/sensor.egg-info/PKG-INFO
+writing dependency_links to ../../build/sensor/sensor.egg-info/dependency_links.txt
+writing entry points to ../../build/sensor/sensor.egg-info/entry_points.txt
+writing requirements to ../../build/sensor/sensor.egg-info/requires.txt
+writing top-level names to ../../build/sensor/sensor.egg-info/top_level.txt
+reading manifest file '../../build/sensor/sensor.egg-info/SOURCES.txt'
+writing manifest file '../../build/sensor/sensor.egg-info/SOURCES.txt'
+running build
+running build_py
+copying sensor/__init__.py -> /home/eduhkrobotic2/r2_ros/build/sensor/build/lib/sensor
+copying sensor/stp32l.py -> /home/eduhkrobotic2/r2_ros/build/sensor/build/lib/sensor
+copying sensor/sensor_publisher.py -> /home/eduhkrobotic2/r2_ros/build/sensor/build/lib/sensor
+copying sensor/sensor_publisher.py -> /home/eduhkrobotic2/r2_ros/build/sensor/build/lib/sensor
+copying sensor/__init__.py -> /home/eduhkrobotic2/r2_ros/build/sensor/build/lib/sensor
+copying sensor/stp32l.py -> /home/eduhkrobotic2/r2_ros/build/sensor/build/lib/sensor
+running install
+running install_lib
+creating /home/eduhkrobotic2/r2_ros/install/sensor/lib/python3.10/site-packages/sensor
+copying /home/eduhkrobotic2/r2_ros/build/sensor/build/lib/sensor/gyrosensor.py -> /home/eduhkrobotic2/r2_ros/install/sensor/lib/python3.10/site-packages/sensor
+copying /home/eduhkrobotic2/r2_ros/build/sensor/build/lib/sensor/sensor_publisher.py -> /home/eduhkrobotic2/r2_ros/install/sensor/lib/python3.10/site-packages/sensor
+copying /home/eduhkrobotic2/r2_ros/build/sensor/build/lib/sensor/__init__.py -> /home/eduhkrobotic2/r2_ros/install/sensor/lib/python3.10/site-packages/sensor
+copying /home/eduhkrobotic2/r2_ros/build/sensor/build/lib/sensor/stp32l.py -> /home/eduhkrobotic2/r2_ros/install/sensor/lib/python3.10/site-packages/sensor
+byte-compiling /home/eduhkrobotic2/r2_ros/install/sensor/lib/python3.10/site-packages/sensor/gyrosensor.py to gyrosensor.cpython-310.pyc
+byte-compiling /home/eduhkrobotic2/r2_ros/install/sensor/lib/python3.10/site-packages/sensor/sensor_publisher.py to sensor_publisher.cpython-310.pyc
+byte-compiling /home/eduhkrobotic2/r2_ros/install/sensor/lib/python3.10/site-packages/sensor/__init__.py to __init__.cpython-310.pyc
+byte-compiling /home/eduhkrobotic2/r2_ros/install/sensor/lib/python3.10/site-packages/sensor/stp32l.py to stp32l.cpython-310.pyc
+running install_data
+copying resource/sensor -> /home/eduhkrobotic2/r2_ros/install/sensor/share/ament_index/resource_index/packages
+copying package.xml -> /home/eduhkrobotic2/r2_ros/install/sensor/share/sensor
+running install_egg_info
+Copying ../../build/sensor/sensor.egg-info to /home/eduhkrobotic2/r2_ros/install/sensor/lib/python3.10/site-packages/sensor-0.0.0-py3.10.egg-info
+running install_scripts
+Installing gyrosensor script to /home/eduhkrobotic2/r2_ros/install/sensor/lib/sensor
+Installing sensor_publisher script to /home/eduhkrobotic2/r2_ros/install/sensor/lib/sensor
+Installing stp32l script to /home/eduhkrobotic2/r2_ros/install/sensor/lib/sensor
+writing list of installed files to '/home/eduhkrobotic2/r2_ros/build/sensor/install.log'

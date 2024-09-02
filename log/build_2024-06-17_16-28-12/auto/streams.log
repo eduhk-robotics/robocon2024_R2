@@ -1,0 +1,18 @@
+[7.715s] Invoking command in '/home/eduhkrobotic2/r2_ros/build/auto': PYTHONPATH=/home/eduhkrobotic2/r2_ros/build/auto/prefix_override:/home/eduhkrobotic2/r2_ros/install/auto/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/eduhkrobotic2/r2_ros/build/auto/build --no-deps symlink_data --force
+[9.654s] running develop
+[10.845s] running egg_info
+[10.847s] writing auto.egg-info/PKG-INFO
+[10.850s] writing dependency_links to auto.egg-info/dependency_links.txt
+[10.852s] writing entry points to auto.egg-info/entry_points.txt
+[10.853s] writing requirements to auto.egg-info/requires.txt
+[10.854s] writing top-level names to auto.egg-info/top_level.txt
+[10.864s] reading manifest file 'auto.egg-info/SOURCES.txt'
+[10.868s] writing manifest file 'auto.egg-info/SOURCES.txt'
+[10.877s] running build_ext
+[10.879s] Creating /home/eduhkrobotic2/r2_ros/install/auto/lib/python3.10/site-packages/auto.egg-link (link to .)
+[10.886s] 
+[10.887s] Installed /home/eduhkrobotic2/r2_ros/build/auto
+[10.889s] running symlink_data
+[10.891s] symbolically linking /home/eduhkrobotic2/r2_ros/build/auto/resource/auto -> /home/eduhkrobotic2/r2_ros/install/auto/share/ament_index/resource_index/packages
+[10.893s] symbolically linking /home/eduhkrobotic2/r2_ros/build/auto/package.xml -> /home/eduhkrobotic2/r2_ros/install/auto/share/auto
+[11.341s] Invoked command in '/home/eduhkrobotic2/r2_ros/build/auto' returned '0': PYTHONPATH=/home/eduhkrobotic2/r2_ros/build/auto/prefix_override:/home/eduhkrobotic2/r2_ros/install/auto/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/eduhkrobotic2/r2_ros/build/auto/build --no-deps symlink_data --force

@@ -1,0 +1,32 @@
+running develop
+Removing /home/eduhkrobotic2/r2_ros/install/auto/lib/python3.10/site-packages/auto.egg-link (link to .)
+running egg_info
+writing ../../build/auto/auto.egg-info/PKG-INFO
+writing dependency_links to ../../build/auto/auto.egg-info/dependency_links.txt
+writing entry points to ../../build/auto/auto.egg-info/entry_points.txt
+writing requirements to ../../build/auto/auto.egg-info/requires.txt
+writing top-level names to ../../build/auto/auto.egg-info/top_level.txt
+reading manifest file '../../build/auto/auto.egg-info/SOURCES.txt'
+writing manifest file '../../build/auto/auto.egg-info/SOURCES.txt'
+running build
+running build_py
+copying auto/cam.py -> /home/eduhkrobotic2/r2_ros/build/auto/build/lib/auto
+copying auto/webcam_node.py -> /home/eduhkrobotic2/r2_ros/build/auto/build/lib/auto
+copying auto/__init__.py -> /home/eduhkrobotic2/r2_ros/build/auto/build/lib/auto
+running install
+running install_lib
+creating /home/eduhkrobotic2/r2_ros/install/auto/lib/python3.10/site-packages/auto
+copying /home/eduhkrobotic2/r2_ros/build/auto/build/lib/auto/cam.py -> /home/eduhkrobotic2/r2_ros/install/auto/lib/python3.10/site-packages/auto
+copying /home/eduhkrobotic2/r2_ros/build/auto/build/lib/auto/webcam_node.py -> /home/eduhkrobotic2/r2_ros/install/auto/lib/python3.10/site-packages/auto
+copying /home/eduhkrobotic2/r2_ros/build/auto/build/lib/auto/__init__.py -> /home/eduhkrobotic2/r2_ros/install/auto/lib/python3.10/site-packages/auto
+byte-compiling /home/eduhkrobotic2/r2_ros/install/auto/lib/python3.10/site-packages/auto/cam.py to cam.cpython-310.pyc
+byte-compiling /home/eduhkrobotic2/r2_ros/install/auto/lib/python3.10/site-packages/auto/webcam_node.py to webcam_node.cpython-310.pyc
+byte-compiling /home/eduhkrobotic2/r2_ros/install/auto/lib/python3.10/site-packages/auto/__init__.py to __init__.cpython-310.pyc
+running install_data
+copying resource/auto -> /home/eduhkrobotic2/r2_ros/install/auto/share/ament_index/resource_index/packages
+copying package.xml -> /home/eduhkrobotic2/r2_ros/install/auto/share/auto
+running install_egg_info
+Copying ../../build/auto/auto.egg-info to /home/eduhkrobotic2/r2_ros/install/auto/lib/python3.10/site-packages/auto-0.0.0-py3.10.egg-info
+running install_scripts
+Installing webcam_node script to /home/eduhkrobotic2/r2_ros/install/auto/lib/auto
+writing list of installed files to '/home/eduhkrobotic2/r2_ros/build/auto/install.log'

@@ -1,0 +1,34 @@
+[10.036s] Invoking command in '/home/eduhkrobotic2/r2_ros/build/sensor': PYTHONPATH=/home/eduhkrobotic2/r2_ros/build/sensor/prefix_override:/home/eduhkrobotic2/r2_ros/install/sensor/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/eduhkrobotic2/r2_ros/build/sensor/build --no-deps symlink_data --force
+[13.311s] running develop
+[13.313s] /home/eduhkrobotic2/.local/lib/python3.10/site-packages/setuptools/command/develop.py:40: EasyInstallDeprecationWarning: easy_install command is deprecated.
+[13.314s] !!
+[13.314s] 
+[13.315s]         ********************************************************************************
+[13.315s]         Please avoid running ``setup.py`` and ``easy_install``.
+[13.316s]         Instead, use pypa/build, pypa/installer or other
+[13.316s]         standards-based tools.
+[13.317s] 
+[13.317s]         See https://github.com/pypa/setuptools/issues/917 for details.
+[13.318s]         ********************************************************************************
+[13.327s] 
+[13.328s] !!
+[13.328s]   easy_install.initialize_options(self)
+[15.704s] running egg_info
+[15.858s] writing sensor.egg-info/PKG-INFO
+[15.860s] writing dependency_links to sensor.egg-info/dependency_links.txt
+[15.862s] writing entry points to sensor.egg-info/entry_points.txt
+[15.862s] writing requirements to sensor.egg-info/requires.txt
+[15.863s] writing top-level names to sensor.egg-info/top_level.txt
+[16.265s] reading manifest file 'sensor.egg-info/SOURCES.txt'
+[16.271s] writing manifest file 'sensor.egg-info/SOURCES.txt'
+[16.704s] running build_ext
+[16.705s] Creating /home/eduhkrobotic2/r2_ros/install/sensor/lib/python3.10/site-packages/sensor.egg-link (link to .)
+[16.710s] Installing gyrosensor script to /home/eduhkrobotic2/r2_ros/install/sensor/lib/sensor
+[16.712s] Installing sensor_publisher script to /home/eduhkrobotic2/r2_ros/install/sensor/lib/sensor
+[16.715s] Installing stp32l script to /home/eduhkrobotic2/r2_ros/install/sensor/lib/sensor
+[16.716s] 
+[16.717s] Installed /home/eduhkrobotic2/r2_ros/build/sensor
+[16.722s] running symlink_data
+[16.723s] symbolically linking /home/eduhkrobotic2/r2_ros/build/sensor/resource/sensor -> /home/eduhkrobotic2/r2_ros/install/sensor/share/ament_index/resource_index/packages
+[16.724s] symbolically linking /home/eduhkrobotic2/r2_ros/build/sensor/package.xml -> /home/eduhkrobotic2/r2_ros/install/sensor/share/sensor
+[17.012s] Invoked command in '/home/eduhkrobotic2/r2_ros/build/sensor' returned '0': PYTHONPATH=/home/eduhkrobotic2/r2_ros/build/sensor/prefix_override:/home/eduhkrobotic2/r2_ros/install/sensor/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/eduhkrobotic2/r2_ros/build/sensor/build --no-deps symlink_data --force

@@ -1,0 +1,52 @@
+[5.106s] Invoking command in '/home/eduhkrobotic2/r2_ros/build/r2_auto': PYTHONPATH=/home/eduhkrobotic2/r2_ros/build/r2_auto/prefix_override:/home/eduhkrobotic2/r2_ros/install/r2_auto/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --uninstall --editable --build-directory /home/eduhkrobotic2/r2_ros/build/r2_auto/build
+[7.523s] running develop
+[7.525s] /home/eduhkrobotic2/.local/lib/python3.10/site-packages/setuptools/command/develop.py:40: EasyInstallDeprecationWarning: easy_install command is deprecated.
+[7.526s] !!
+[7.526s] 
+[7.527s]         ********************************************************************************
+[7.527s]         Please avoid running ``setup.py`` and ``easy_install``.
+[7.528s]         Instead, use pypa/build, pypa/installer or other
+[7.528s]         standards-based tools.
+[7.528s] 
+[7.529s]         See https://github.com/pypa/setuptools/issues/917 for details.
+[7.529s]         ********************************************************************************
+[7.529s] 
+[7.530s] !!
+[7.530s]   easy_install.initialize_options(self)
+[9.017s] Removing /home/eduhkrobotic2/r2_ros/install/r2_auto/lib/python3.10/site-packages/r2-auto.egg-link (link to .)
+[9.203s] Invoked command in '/home/eduhkrobotic2/r2_ros/build/r2_auto' returned '0': PYTHONPATH=/home/eduhkrobotic2/r2_ros/build/r2_auto/prefix_override:/home/eduhkrobotic2/r2_ros/install/r2_auto/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --uninstall --editable --build-directory /home/eduhkrobotic2/r2_ros/build/r2_auto/build
+[9.213s] Invoking command in '/home/eduhkrobotic2/r2_ros/src/r2_auto': PYTHONPATH=/home/eduhkrobotic2/r2_ros/build/r2_auto/prefix_override:/home/eduhkrobotic2/r2_ros/install/r2_auto/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/r2_auto build --build-base /home/eduhkrobotic2/r2_ros/build/r2_auto/build install --record /home/eduhkrobotic2/r2_ros/build/r2_auto/install.log --single-version-externally-managed install_data --force
+[10.855s] running egg_info
+[10.965s] writing ../../build/r2_auto/r2_auto.egg-info/PKG-INFO
+[10.967s] writing dependency_links to ../../build/r2_auto/r2_auto.egg-info/dependency_links.txt
+[10.969s] writing entry points to ../../build/r2_auto/r2_auto.egg-info/entry_points.txt
+[10.971s] writing requirements to ../../build/r2_auto/r2_auto.egg-info/requires.txt
+[10.972s] writing top-level names to ../../build/r2_auto/r2_auto.egg-info/top_level.txt
+[11.195s] reading manifest file '../../build/r2_auto/r2_auto.egg-info/SOURCES.txt'
+[11.201s] writing manifest file '../../build/r2_auto/r2_auto.egg-info/SOURCES.txt'
+[11.202s] running build
+[11.202s] running build_py
+[11.205s] copying r2_auto/r2_main.py -> /home/eduhkrobotic2/r2_ros/build/r2_auto/build/lib/r2_auto
+[11.206s] copying r2_auto/__init__.py -> /home/eduhkrobotic2/r2_ros/build/r2_auto/build/lib/r2_auto
+[11.207s] copying r2_auto/r2_ps4.py -> /home/eduhkrobotic2/r2_ros/build/r2_auto/build/lib/r2_auto
+[11.209s] running install
+[11.236s] running install_lib
+[11.334s] creating /home/eduhkrobotic2/r2_ros/install/r2_auto/lib/python3.10/site-packages/r2_auto
+[11.335s] copying /home/eduhkrobotic2/r2_ros/build/r2_auto/build/lib/r2_auto/omni_pid.py -> /home/eduhkrobotic2/r2_ros/install/r2_auto/lib/python3.10/site-packages/r2_auto
+[11.337s] copying /home/eduhkrobotic2/r2_ros/build/r2_auto/build/lib/r2_auto/r2_main.py -> /home/eduhkrobotic2/r2_ros/install/r2_auto/lib/python3.10/site-packages/r2_auto
+[11.338s] copying /home/eduhkrobotic2/r2_ros/build/r2_auto/build/lib/r2_auto/__init__.py -> /home/eduhkrobotic2/r2_ros/install/r2_auto/lib/python3.10/site-packages/r2_auto
+[11.339s] copying /home/eduhkrobotic2/r2_ros/build/r2_auto/build/lib/r2_auto/r2_ps4.py -> /home/eduhkrobotic2/r2_ros/install/r2_auto/lib/python3.10/site-packages/r2_auto
+[11.343s] byte-compiling /home/eduhkrobotic2/r2_ros/install/r2_auto/lib/python3.10/site-packages/r2_auto/omni_pid.py to omni_pid.cpython-310.pyc
+[11.348s] byte-compiling /home/eduhkrobotic2/r2_ros/install/r2_auto/lib/python3.10/site-packages/r2_auto/r2_main.py to r2_main.cpython-310.pyc
+[11.350s] Sorry: TabError: inconsistent use of tabs and spaces in indentation (r2_main.py, line 44)
+[11.350s] byte-compiling /home/eduhkrobotic2/r2_ros/install/r2_auto/lib/python3.10/site-packages/r2_auto/__init__.py to __init__.cpython-310.pyc
+[11.352s] byte-compiling /home/eduhkrobotic2/r2_ros/install/r2_auto/lib/python3.10/site-packages/r2_auto/r2_ps4.py to r2_ps4.cpython-310.pyc
+[11.355s] running install_data
+[11.356s] copying resource/r2_auto -> /home/eduhkrobotic2/r2_ros/install/r2_auto/share/ament_index/resource_index/packages
+[11.357s] copying package.xml -> /home/eduhkrobotic2/r2_ros/install/r2_auto/share/r2_auto
+[11.358s] running install_egg_info
+[11.466s] Copying ../../build/r2_auto/r2_auto.egg-info to /home/eduhkrobotic2/r2_ros/install/r2_auto/lib/python3.10/site-packages/r2_auto-0.0.0-py3.10.egg-info
+[11.473s] running install_scripts
+[12.401s] Installing r2_ps4_node script to /home/eduhkrobotic2/r2_ros/install/r2_auto/lib/r2_auto
+[12.403s] writing list of installed files to '/home/eduhkrobotic2/r2_ros/build/r2_auto/install.log'
+[12.566s] Invoked command in '/home/eduhkrobotic2/r2_ros/src/r2_auto' returned '0': PYTHONPATH=/home/eduhkrobotic2/r2_ros/build/r2_auto/prefix_override:/home/eduhkrobotic2/r2_ros/install/r2_auto/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/r2_auto build --build-base /home/eduhkrobotic2/r2_ros/build/r2_auto/build install --record /home/eduhkrobotic2/r2_ros/build/r2_auto/install.log --single-version-externally-managed install_data --force

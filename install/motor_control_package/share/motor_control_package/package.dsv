@@ -1,0 +1,9 @@
+source;share/motor_control_package/hook/pythonpath.ps1
+source;share/motor_control_package/hook/pythonpath.dsv
+source;share/motor_control_package/hook/pythonpath.sh
+source;share/motor_control_package/hook/ament_prefix_path.ps1
+source;share/motor_control_package/hook/ament_prefix_path.dsv
+source;share/motor_control_package/hook/ament_prefix_path.sh
+source;../../build/motor_control_package/share/motor_control_package/hook/pythonpath_develop.ps1
+source;../../build/motor_control_package/share/motor_control_package/hook/pythonpath_develop.dsv
+source;../../build/motor_control_package/share/motor_control_package/hook/pythonpath_develop.sh

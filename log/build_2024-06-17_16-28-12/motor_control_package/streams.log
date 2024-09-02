@@ -1,0 +1,21 @@
+[7.749s] Invoking command in '/home/eduhkrobotic2/r2_ros/build/motor_control_package': PYTHONPATH=/home/eduhkrobotic2/r2_ros/build/motor_control_package/prefix_override:/home/eduhkrobotic2/r2_ros/install/motor_control_package/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/eduhkrobotic2/r2_ros/build/motor_control_package/build --no-deps symlink_data --force
+[9.669s] running develop
+[10.947s] running egg_info
+[10.952s] writing motor_control_package.egg-info/PKG-INFO
+[10.958s] writing dependency_links to motor_control_package.egg-info/dependency_links.txt
+[10.963s] writing entry points to motor_control_package.egg-info/entry_points.txt
+[10.969s] writing requirements to motor_control_package.egg-info/requires.txt
+[10.973s] writing top-level names to motor_control_package.egg-info/top_level.txt
+[10.998s] reading manifest file 'motor_control_package.egg-info/SOURCES.txt'
+[11.009s] writing manifest file 'motor_control_package.egg-info/SOURCES.txt'
+[11.029s] running build_ext
+[11.034s] Creating /home/eduhkrobotic2/r2_ros/install/motor_control_package/lib/python3.10/site-packages/motor-control-package.egg-link (link to .)
+[11.047s] Installing motor_control_publisher script to /home/eduhkrobotic2/r2_ros/install/motor_control_package/lib/motor_control_package
+[11.052s] Installing motor_control_subscriber script to /home/eduhkrobotic2/r2_ros/install/motor_control_package/lib/motor_control_package
+[11.057s] Installing motor_data_reader script to /home/eduhkrobotic2/r2_ros/install/motor_control_package/lib/motor_control_package
+[11.063s] 
+[11.065s] Installed /home/eduhkrobotic2/r2_ros/build/motor_control_package
+[11.069s] running symlink_data
+[11.074s] symbolically linking /home/eduhkrobotic2/r2_ros/build/motor_control_package/resource/motor_control_package -> /home/eduhkrobotic2/r2_ros/install/motor_control_package/share/ament_index/resource_index/packages
+[11.080s] symbolically linking /home/eduhkrobotic2/r2_ros/build/motor_control_package/package.xml -> /home/eduhkrobotic2/r2_ros/install/motor_control_package/share/motor_control_package
+[11.385s] Invoked command in '/home/eduhkrobotic2/r2_ros/build/motor_control_package' returned '0': PYTHONPATH=/home/eduhkrobotic2/r2_ros/build/motor_control_package/prefix_override:/home/eduhkrobotic2/r2_ros/install/motor_control_package/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/eduhkrobotic2/r2_ros/build/motor_control_package/build --no-deps symlink_data --force

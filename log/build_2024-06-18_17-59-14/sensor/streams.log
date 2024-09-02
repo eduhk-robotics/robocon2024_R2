@@ -1,0 +1,32 @@
+[4.379s] Invoking command in '/home/eduhkrobotic2/r2_ros/src/sensor': PYTHONPATH=/home/eduhkrobotic2/r2_ros/build/sensor/prefix_override:/home/eduhkrobotic2/r2_ros/install/sensor/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/sensor build --build-base /home/eduhkrobotic2/r2_ros/build/sensor/build install --record /home/eduhkrobotic2/r2_ros/build/sensor/install.log --single-version-externally-managed install_data
+[5.720s] running egg_info
+[5.807s] writing ../../build/sensor/sensor.egg-info/PKG-INFO
+[5.809s] writing dependency_links to ../../build/sensor/sensor.egg-info/dependency_links.txt
+[5.810s] writing entry points to ../../build/sensor/sensor.egg-info/entry_points.txt
+[5.811s] writing requirements to ../../build/sensor/sensor.egg-info/requires.txt
+[5.812s] writing top-level names to ../../build/sensor/sensor.egg-info/top_level.txt
+[5.994s] reading manifest file '../../build/sensor/sensor.egg-info/SOURCES.txt'
+[6.024s] writing manifest file '../../build/sensor/sensor.egg-info/SOURCES.txt'
+[6.026s] running build
+[6.027s] running build_py
+[6.028s] copying sensor/__init__.py -> /home/eduhkrobotic2/r2_ros/build/sensor/build/lib/sensor
+[6.030s] copying sensor/stp32l.py -> /home/eduhkrobotic2/r2_ros/build/sensor/build/lib/sensor
+[6.031s] copying sensor/gyrosensor.py -> /home/eduhkrobotic2/r2_ros/build/sensor/build/lib/sensor
+[6.033s] copying sensor/__init__.py -> /home/eduhkrobotic2/r2_ros/build/sensor/build/lib/sensor
+[6.036s] running install
+[6.057s] running install_lib
+[6.145s] copying /home/eduhkrobotic2/r2_ros/build/sensor/build/lib/sensor/gyrosensor.py -> /home/eduhkrobotic2/r2_ros/install/sensor/lib/python3.10/site-packages/sensor
+[6.147s] copying /home/eduhkrobotic2/r2_ros/build/sensor/build/lib/sensor/stp32l.py -> /home/eduhkrobotic2/r2_ros/install/sensor/lib/python3.10/site-packages/sensor
+[6.150s] byte-compiling /home/eduhkrobotic2/r2_ros/install/sensor/lib/python3.10/site-packages/sensor/gyrosensor.py to gyrosensor.cpython-310.pyc
+[6.154s] byte-compiling /home/eduhkrobotic2/r2_ros/install/sensor/lib/python3.10/site-packages/sensor/stp32l.py to stp32l.cpython-310.pyc
+[6.158s] running install_data
+[6.158s] copying resource/sensor -> /home/eduhkrobotic2/r2_ros/install/sensor/share/ament_index/resource_index/packages
+[6.159s] running install_egg_info
+[6.254s] removing '/home/eduhkrobotic2/r2_ros/install/sensor/lib/python3.10/site-packages/sensor-0.0.0-py3.10.egg-info' (and everything under it)
+[6.256s] Copying ../../build/sensor/sensor.egg-info to /home/eduhkrobotic2/r2_ros/install/sensor/lib/python3.10/site-packages/sensor-0.0.0-py3.10.egg-info
+[6.261s] running install_scripts
+[7.084s] Installing gyrosensor script to /home/eduhkrobotic2/r2_ros/install/sensor/lib/sensor
+[7.085s] Installing sensor_publisher script to /home/eduhkrobotic2/r2_ros/install/sensor/lib/sensor
+[7.086s] Installing stp32l script to /home/eduhkrobotic2/r2_ros/install/sensor/lib/sensor
+[7.089s] writing list of installed files to '/home/eduhkrobotic2/r2_ros/build/sensor/install.log'
+[7.229s] Invoked command in '/home/eduhkrobotic2/r2_ros/src/sensor' returned '0': PYTHONPATH=/home/eduhkrobotic2/r2_ros/build/sensor/prefix_override:/home/eduhkrobotic2/r2_ros/install/sensor/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/sensor build --build-base /home/eduhkrobotic2/r2_ros/build/sensor/build install --record /home/eduhkrobotic2/r2_ros/build/sensor/install.log --single-version-externally-managed install_data

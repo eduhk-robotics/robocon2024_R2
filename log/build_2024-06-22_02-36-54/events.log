@@ -1,0 +1,119 @@
+[0.000000] (-) TimerEvent: {}
+[0.001728] (-) JobUnselected: {'identifier': 'auto'}
+[0.002398] (-) JobUnselected: {'identifier': 'motor_control_package'}
+[0.003029] (-) JobUnselected: {'identifier': 'navigation'}
+[0.003229] (-) JobUnselected: {'identifier': 'ps4'}
+[0.003372] (-) JobUnselected: {'identifier': 'r2_auto'}
+[0.003461] (sensor) JobQueued: {'identifier': 'sensor', 'dependencies': OrderedDict()}
+[0.003612] (sensor) JobStarted: {'identifier': 'sensor'}
+[0.098948] (-) TimerEvent: {}
+[0.199624] (-) TimerEvent: {}
+[0.300293] (-) TimerEvent: {}
+[0.400932] (-) TimerEvent: {}
+[0.501667] (-) TimerEvent: {}
+[0.602327] (-) TimerEvent: {}
+[0.703059] (-) TimerEvent: {}
+[0.803786] (-) TimerEvent: {}
+[0.904420] (-) TimerEvent: {}
+[1.005049] (-) TimerEvent: {}
+[1.105684] (-) TimerEvent: {}
+[1.206365] (-) TimerEvent: {}
+[1.307104] (-) TimerEvent: {}
+[1.408337] (-) TimerEvent: {}
+[1.509104] (-) TimerEvent: {}
+[1.609749] (-) TimerEvent: {}
+[1.710607] (-) TimerEvent: {}
+[1.811306] (-) TimerEvent: {}
+[1.911931] (-) TimerEvent: {}
+[2.012556] (-) TimerEvent: {}
+[2.113195] (-) TimerEvent: {}
+[2.213927] (-) TimerEvent: {}
+[2.314882] (-) TimerEvent: {}
+[2.415618] (-) TimerEvent: {}
+[2.516244] (-) TimerEvent: {}
+[2.616903] (-) TimerEvent: {}
+[2.718492] (-) TimerEvent: {}
+[2.819269] (-) TimerEvent: {}
+[2.919925] (-) TimerEvent: {}
+[3.020599] (-) TimerEvent: {}
+[3.121371] (-) TimerEvent: {}
+[3.222107] (-) TimerEvent: {}
+[3.322935] (-) TimerEvent: {}
+[3.423576] (-) TimerEvent: {}
+[3.524215] (-) TimerEvent: {}
+[3.624902] (-) TimerEvent: {}
+[3.725683] (-) TimerEvent: {}
+[3.826519] (-) TimerEvent: {}
+[3.927240] (-) TimerEvent: {}
+[4.027856] (-) TimerEvent: {}
+[4.128564] (-) TimerEvent: {}
+[4.229295] (-) TimerEvent: {}
+[4.329931] (-) TimerEvent: {}
+[4.430812] (-) TimerEvent: {}
+[4.532345] (-) TimerEvent: {}
+[4.633372] (-) TimerEvent: {}
+[4.636162] (sensor) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/sensor', 'build', '--build-base', '/home/eduhkrobotic2/r2_ros/build/sensor/build', 'install', '--record', '/home/eduhkrobotic2/r2_ros/build/sensor/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/eduhkrobotic2/r2_ros/src/sensor', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'LANGUAGE': 'en_HK:en', 'USER': 'eduhkrobotic2', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/eduhkrobotic2', 'OLDPWD': '/home/eduhkrobotic2', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '1954', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/eduhkrobotic2/r2_ros/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'eduhkrobotic2', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'eduhkrobotic2', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/home/eduhkrobotic2/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/eduhkrobotic2-desktop:@/tmp/.ICE-unix/1900,unix/eduhkrobotic2-desktop:/tmp/.ICE-unix/1900', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/6e954c3f_4269_4e9b_bf46_eec684f6ce97', 'GNOME_SETUP_DISPLAY': ':2', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_HK.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.T5XNP2', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.106', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/eduhkrobotic2/r2_ros/install/sensor:/home/eduhkrobotic2/r2_ros/install/r2_auto:/home/eduhkrobotic2/r2_ros/install/ps4:/home/eduhkrobotic2/r2_ros/install/navigation:/home/eduhkrobotic2/r2_ros/install/motor_control_package:/home/eduhkrobotic2/r2_ros/install/auto:/home/eduhkrobotic2/r2_ros/install/arduino_comm:/home/eduhkrobotic2/r2_ros/install/R2_main:/opt/ros/humble', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/eduhkrobotic2/r2_ros/build/sensor', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/eduhkrobotic2/r2_ros/build/sensor/prefix_override:/home/eduhkrobotic2/r2_ros/install/sensor/lib/python3.10/site-packages:/home/eduhkrobotic2/r2_ros/install/sensor/lib/python3.10/site-packages:/home/eduhkrobotic2/r2_ros/build/r2_auto:/home/eduhkrobotic2/r2_ros/install/r2_auto/lib/python3.10/site-packages:/home/eduhkrobotic2/r2_ros/build/ps4:/home/eduhkrobotic2/r2_ros/install/ps4/lib/python3.10/site-packages:/home/eduhkrobotic2/r2_ros/build/navigation:/home/eduhkrobotic2/r2_ros/install/navigation/lib/python3.10/site-packages:/home/eduhkrobotic2/r2_ros/build/motor_control_package:/home/eduhkrobotic2/r2_ros/install/motor_control_package/lib/python3.10/site-packages:/home/eduhkrobotic2/r2_ros/build/auto:/home/eduhkrobotic2/r2_ros/install/auto/lib/python3.10/site-packages:/home/eduhkrobotic2/r2_ros/install/arduino_comm/lib/python3.10/site-packages:/home/eduhkrobotic2/r2_ros/install/R2_main/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'VTE_VERSION': '6800'}, 'shell': False}
+[4.733578] (-) TimerEvent: {}
+[4.834297] (-) TimerEvent: {}
+[4.935055] (-) TimerEvent: {}
+[5.035771] (-) TimerEvent: {}
+[5.136608] (-) TimerEvent: {}
+[5.237619] (-) TimerEvent: {}
+[5.338370] (-) TimerEvent: {}
+[5.439040] (-) TimerEvent: {}
+[5.539693] (-) TimerEvent: {}
+[5.640277] (-) TimerEvent: {}
+[5.740903] (-) TimerEvent: {}
+[5.841516] (-) TimerEvent: {}
+[5.942134] (-) TimerEvent: {}
+[6.042774] (-) TimerEvent: {}
+[6.143400] (-) TimerEvent: {}
+[6.196200] (sensor) StdoutLine: {'line': b'running egg_info\n'}
+[6.243565] (-) TimerEvent: {}
+[6.301297] (sensor) StdoutLine: {'line': b'writing ../../build/sensor/sensor.egg-info/PKG-INFO\n'}
+[6.304887] (sensor) StdoutLine: {'line': b'writing dependency_links to ../../build/sensor/sensor.egg-info/dependency_links.txt\n'}
+[6.306181] (sensor) StdoutLine: {'line': b'writing entry points to ../../build/sensor/sensor.egg-info/entry_points.txt\n'}
+[6.307382] (sensor) StdoutLine: {'line': b'writing requirements to ../../build/sensor/sensor.egg-info/requires.txt\n'}
+[6.308329] (sensor) StdoutLine: {'line': b'writing top-level names to ../../build/sensor/sensor.egg-info/top_level.txt\n'}
+[6.343723] (-) TimerEvent: {}
+[6.444332] (-) TimerEvent: {}
+[6.496386] (sensor) StdoutLine: {'line': b"reading manifest file '../../build/sensor/sensor.egg-info/SOURCES.txt'\n"}
+[6.501508] (sensor) StdoutLine: {'line': b"writing manifest file '../../build/sensor/sensor.egg-info/SOURCES.txt'\n"}
+[6.502527] (sensor) StdoutLine: {'line': b'running build\n'}
+[6.503041] (sensor) StdoutLine: {'line': b'running build_py\n'}
+[6.505155] (sensor) StdoutLine: {'line': b'copying sensor/__init__.py -> /home/eduhkrobotic2/r2_ros/build/sensor/build/lib/sensor\n'}
+[6.506708] (sensor) StdoutLine: {'line': b'copying sensor/gyrosensor.py -> /home/eduhkrobotic2/r2_ros/build/sensor/build/lib/sensor\n'}
+[6.507921] (sensor) StdoutLine: {'line': b'copying sensor/sensor_publisher.py -> /home/eduhkrobotic2/r2_ros/build/sensor/build/lib/sensor\n'}
+[6.509623] (sensor) StdoutLine: {'line': b'copying sensor/gyrosensor.py -> /home/eduhkrobotic2/r2_ros/build/sensor/build/lib/sensor\n'}
+[6.510773] (sensor) StdoutLine: {'line': b'copying sensor/sensor_publisher.py -> /home/eduhkrobotic2/r2_ros/build/sensor/build/lib/sensor\n'}
+[6.511891] (sensor) StdoutLine: {'line': b'copying sensor/__init__.py -> /home/eduhkrobotic2/r2_ros/build/sensor/build/lib/sensor\n'}
+[6.514124] (sensor) StdoutLine: {'line': b'running install\n'}
+[6.537562] (sensor) StdoutLine: {'line': b'running install_lib\n'}
+[6.544469] (-) TimerEvent: {}
+[6.629813] (sensor) StdoutLine: {'line': b'copying /home/eduhkrobotic2/r2_ros/build/sensor/build/lib/sensor/gyrosensor.py -> /home/eduhkrobotic2/r2_ros/install/sensor/lib/python3.10/site-packages/sensor\n'}
+[6.633737] (sensor) StdoutLine: {'line': b'byte-compiling /home/eduhkrobotic2/r2_ros/install/sensor/lib/python3.10/site-packages/sensor/gyrosensor.py to gyrosensor.cpython-310.pyc\n'}
+[6.637898] (sensor) StdoutLine: {'line': b'running install_data\n'}
+[6.638696] (sensor) StdoutLine: {'line': b'copying resource/sensor -> /home/eduhkrobotic2/r2_ros/install/sensor/share/ament_index/resource_index/packages\n'}
+[6.639642] (sensor) StdoutLine: {'line': b'running install_egg_info\n'}
+[6.644623] (-) TimerEvent: {}
+[6.738163] (sensor) StdoutLine: {'line': b"removing '/home/eduhkrobotic2/r2_ros/install/sensor/lib/python3.10/site-packages/sensor-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[6.740077] (sensor) StdoutLine: {'line': b'Copying ../../build/sensor/sensor.egg-info to /home/eduhkrobotic2/r2_ros/install/sensor/lib/python3.10/site-packages/sensor-0.0.0-py3.10.egg-info\n'}
+[6.744790] (-) TimerEvent: {}
+[6.746524] (sensor) StdoutLine: {'line': b'running install_scripts\n'}
+[6.844966] (-) TimerEvent: {}
+[6.945635] (-) TimerEvent: {}
+[7.046286] (-) TimerEvent: {}
+[7.147028] (-) TimerEvent: {}
+[7.247675] (-) TimerEvent: {}
+[7.348294] (-) TimerEvent: {}
+[7.448912] (-) TimerEvent: {}
+[7.549585] (-) TimerEvent: {}
+[7.609213] (sensor) StdoutLine: {'line': b'Installing gyrosensor script to /home/eduhkrobotic2/r2_ros/install/sensor/lib/sensor\n'}
+[7.610387] (sensor) StdoutLine: {'line': b'Installing sensor_publisher script to /home/eduhkrobotic2/r2_ros/install/sensor/lib/sensor\n'}
+[7.611424] (sensor) StdoutLine: {'line': b'Installing stp32l script to /home/eduhkrobotic2/r2_ros/install/sensor/lib/sensor\n'}
+[7.613575] (sensor) StdoutLine: {'line': b"writing list of installed files to '/home/eduhkrobotic2/r2_ros/build/sensor/install.log'\n"}
+[7.649963] (-) TimerEvent: {}
+[7.751450] (-) TimerEvent: {}
+[7.764874] (sensor) CommandEnded: {'returncode': 0}
+[7.816295] (sensor) JobEnded: {'identifier': 'sensor', 'rc': 0}
+[7.819358] (-) EventReactorShutdown: {}

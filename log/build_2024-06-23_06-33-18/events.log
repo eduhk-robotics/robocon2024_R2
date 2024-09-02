@@ -1,0 +1,111 @@
+[0.000000] (-) TimerEvent: {}
+[0.001140] (-) JobUnselected: {'identifier': 'auto'}
+[0.002371] (-) JobUnselected: {'identifier': 'navigation'}
+[0.002499] (-) JobUnselected: {'identifier': 'ps4'}
+[0.003230] (-) JobUnselected: {'identifier': 'r2_auto'}
+[0.003338] (-) JobUnselected: {'identifier': 'sensor'}
+[0.003438] (motor_control_package) JobQueued: {'identifier': 'motor_control_package', 'dependencies': OrderedDict()}
+[0.003544] (motor_control_package) JobStarted: {'identifier': 'motor_control_package'}
+[0.098842] (-) TimerEvent: {}
+[0.199525] (-) TimerEvent: {}
+[0.300291] (-) TimerEvent: {}
+[0.401145] (-) TimerEvent: {}
+[0.502008] (-) TimerEvent: {}
+[0.602904] (-) TimerEvent: {}
+[0.704171] (-) TimerEvent: {}
+[0.804952] (-) TimerEvent: {}
+[0.905590] (-) TimerEvent: {}
+[1.006339] (-) TimerEvent: {}
+[1.106994] (-) TimerEvent: {}
+[1.207831] (-) TimerEvent: {}
+[1.309691] (-) TimerEvent: {}
+[1.411236] (-) TimerEvent: {}
+[1.511883] (-) TimerEvent: {}
+[1.612584] (-) TimerEvent: {}
+[1.713282] (-) TimerEvent: {}
+[1.813946] (-) TimerEvent: {}
+[1.914725] (-) TimerEvent: {}
+[2.015421] (-) TimerEvent: {}
+[2.116169] (-) TimerEvent: {}
+[2.216816] (-) TimerEvent: {}
+[2.317515] (-) TimerEvent: {}
+[2.418168] (-) TimerEvent: {}
+[2.518843] (-) TimerEvent: {}
+[2.619564] (-) TimerEvent: {}
+[2.720182] (-) TimerEvent: {}
+[2.820799] (-) TimerEvent: {}
+[2.921419] (-) TimerEvent: {}
+[3.022090] (-) TimerEvent: {}
+[3.122705] (-) TimerEvent: {}
+[3.223354] (-) TimerEvent: {}
+[3.324017] (-) TimerEvent: {}
+[3.425360] (-) TimerEvent: {}
+[3.526636] (-) TimerEvent: {}
+[3.627293] (-) TimerEvent: {}
+[3.727962] (-) TimerEvent: {}
+[3.828589] (-) TimerEvent: {}
+[3.929464] (-) TimerEvent: {}
+[4.030146] (-) TimerEvent: {}
+[4.130837] (-) TimerEvent: {}
+[4.231570] (-) TimerEvent: {}
+[4.332494] (-) TimerEvent: {}
+[4.433864] (-) TimerEvent: {}
+[4.491405] (motor_control_package) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/motor_control_package', 'build', '--build-base', '/home/eduhkrobotic2/r2_ros/build/motor_control_package/build', 'install', '--record', '/home/eduhkrobotic2/r2_ros/build/motor_control_package/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/eduhkrobotic2/r2_ros/src/motor_control_package', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'LANGUAGE': 'en_HK:en', 'USER': 'eduhkrobotic2', 'SSH_CLIENT': '192.168.246.36 58764 22', 'XDG_SESSION_TYPE': 'tty', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib', 'MOTD_SHOWN': 'pam', 'HOME': '/home/eduhkrobotic2', 'OLDPWD': '/home/eduhkrobotic2', 'SSH_TTY': '/dev/pts/0', 'ROS_PYTHON_VERSION': '3', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLCON_PREFIX_PATH': '/home/eduhkrobotic2/r2_ros/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'eduhkrobotic2', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm', 'XDG_SESSION_ID': '5', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/home/eduhkrobotic2/.local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1000', 'LANG': 'en_HK.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'AMENT_PREFIX_PATH': '/home/eduhkrobotic2/r2_ros/install/sensor:/home/eduhkrobotic2/r2_ros/install/r2_auto:/home/eduhkrobotic2/r2_ros/install/ps4:/home/eduhkrobotic2/r2_ros/install/navigation:/home/eduhkrobotic2/r2_ros/install/motor_control_package:/home/eduhkrobotic2/r2_ros/install/auto:/home/eduhkrobotic2/r2_ros/install/arduino_comm:/home/eduhkrobotic2/r2_ros/install/R2_main:/opt/ros/humble', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'PWD': '/home/eduhkrobotic2/r2_ros/build/motor_control_package', 'SSH_CONNECTION': '192.168.246.36 58764 172.19.250.76 22', 'XDG_DATA_DIRS': '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/eduhkrobotic2/r2_ros/build/motor_control_package/prefix_override:/home/eduhkrobotic2/r2_ros/install/motor_control_package/lib/python3.10/site-packages:/home/eduhkrobotic2/r2_ros/install/sensor/lib/python3.10/site-packages:/home/eduhkrobotic2/r2_ros/install/r2_auto/lib/python3.10/site-packages:/home/eduhkrobotic2/r2_ros/install/ps4/lib/python3.10/site-packages:/home/eduhkrobotic2/r2_ros/install/navigation/lib/python3.10/site-packages:/home/eduhkrobotic2/r2_ros/install/motor_control_package/lib/python3.10/site-packages:/home/eduhkrobotic2/r2_ros/install/auto/lib/python3.10/site-packages:/home/eduhkrobotic2/r2_ros/install/arduino_comm/lib/python3.10/site-packages:/home/eduhkrobotic2/r2_ros/install/R2_main/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1'}, 'shell': False}
+[4.533972] (-) TimerEvent: {}
+[4.634846] (-) TimerEvent: {}
+[4.736492] (-) TimerEvent: {}
+[4.837201] (-) TimerEvent: {}
+[4.937977] (-) TimerEvent: {}
+[5.038662] (-) TimerEvent: {}
+[5.139336] (-) TimerEvent: {}
+[5.239957] (-) TimerEvent: {}
+[5.340581] (-) TimerEvent: {}
+[5.441263] (-) TimerEvent: {}
+[5.541893] (-) TimerEvent: {}
+[5.642560] (-) TimerEvent: {}
+[5.743157] (-) TimerEvent: {}
+[5.843775] (-) TimerEvent: {}
+[5.882693] (motor_control_package) StdoutLine: {'line': b'running egg_info\n'}
+[5.943959] (-) TimerEvent: {}
+[5.972960] (motor_control_package) StdoutLine: {'line': b'writing ../../build/motor_control_package/motor_control_package.egg-info/PKG-INFO\n'}
+[5.976414] (motor_control_package) StdoutLine: {'line': b'writing dependency_links to ../../build/motor_control_package/motor_control_package.egg-info/dependency_links.txt\n'}
+[5.977874] (motor_control_package) StdoutLine: {'line': b'writing entry points to ../../build/motor_control_package/motor_control_package.egg-info/entry_points.txt\n'}
+[5.979186] (motor_control_package) StdoutLine: {'line': b'writing requirements to ../../build/motor_control_package/motor_control_package.egg-info/requires.txt\n'}
+[5.979972] (motor_control_package) StdoutLine: {'line': b'writing top-level names to ../../build/motor_control_package/motor_control_package.egg-info/top_level.txt\n'}
+[6.044126] (-) TimerEvent: {}
+[6.144794] (-) TimerEvent: {}
+[6.168658] (motor_control_package) StdoutLine: {'line': b"reading manifest file '../../build/motor_control_package/motor_control_package.egg-info/SOURCES.txt'\n"}
+[6.173887] (motor_control_package) StdoutLine: {'line': b"writing manifest file '../../build/motor_control_package/motor_control_package.egg-info/SOURCES.txt'\n"}
+[6.174651] (motor_control_package) StdoutLine: {'line': b'running build\n'}
+[6.175274] (motor_control_package) StdoutLine: {'line': b'running build_py\n'}
+[6.177740] (motor_control_package) StdoutLine: {'line': b'copying motor_control_package/motor_data_reader.py -> /home/eduhkrobotic2/r2_ros/build/motor_control_package/build/lib/motor_control_package\n'}
+[6.178953] (motor_control_package) StdoutLine: {'line': b'copying motor_control_package/__init__.py -> /home/eduhkrobotic2/r2_ros/build/motor_control_package/build/lib/motor_control_package\n'}
+[6.181628] (motor_control_package) StdoutLine: {'line': b'running install\n'}
+[6.203961] (motor_control_package) StdoutLine: {'line': b'running install_lib\n'}
+[6.244948] (-) TimerEvent: {}
+[6.297127] (motor_control_package) StdoutLine: {'line': b'copying /home/eduhkrobotic2/r2_ros/build/motor_control_package/build/lib/motor_control_package/motor_data_reader.py -> /home/eduhkrobotic2/r2_ros/install/motor_control_package/lib/python3.10/site-packages/motor_control_package\n'}
+[6.302346] (motor_control_package) StdoutLine: {'line': b'byte-compiling /home/eduhkrobotic2/r2_ros/install/motor_control_package/lib/python3.10/site-packages/motor_control_package/motor_data_reader.py to motor_data_reader.cpython-310.pyc\n'}
+[6.306670] (motor_control_package) StdoutLine: {'line': b'running install_data\n'}
+[6.307602] (motor_control_package) StdoutLine: {'line': b'running install_egg_info\n'}
+[6.345084] (-) TimerEvent: {}
+[6.404032] (motor_control_package) StdoutLine: {'line': b"removing '/home/eduhkrobotic2/r2_ros/install/motor_control_package/lib/python3.10/site-packages/motor_control_package-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[6.406747] (motor_control_package) StdoutLine: {'line': b'Copying ../../build/motor_control_package/motor_control_package.egg-info to /home/eduhkrobotic2/r2_ros/install/motor_control_package/lib/python3.10/site-packages/motor_control_package-0.0.0-py3.10.egg-info\n'}
+[6.413250] (motor_control_package) StdoutLine: {'line': b'running install_scripts\n'}
+[6.445236] (-) TimerEvent: {}
+[6.545875] (-) TimerEvent: {}
+[6.646513] (-) TimerEvent: {}
+[6.747151] (-) TimerEvent: {}
+[6.847854] (-) TimerEvent: {}
+[6.948526] (-) TimerEvent: {}
+[7.049258] (-) TimerEvent: {}
+[7.149934] (-) TimerEvent: {}
+[7.250605] (-) TimerEvent: {}
+[7.274424] (motor_control_package) StdoutLine: {'line': b'Installing motor_control_publisher script to /home/eduhkrobotic2/r2_ros/install/motor_control_package/lib/motor_control_package\n'}
+[7.275532] (motor_control_package) StdoutLine: {'line': b'Installing motor_control_subscriber script to /home/eduhkrobotic2/r2_ros/install/motor_control_package/lib/motor_control_package\n'}
+[7.276495] (motor_control_package) StdoutLine: {'line': b'Installing motor_data_reader script to /home/eduhkrobotic2/r2_ros/install/motor_control_package/lib/motor_control_package\n'}
+[7.278828] (motor_control_package) StdoutLine: {'line': b"writing list of installed files to '/home/eduhkrobotic2/r2_ros/build/motor_control_package/install.log'\n"}
+[7.350946] (-) TimerEvent: {}
+[7.431358] (motor_control_package) CommandEnded: {'returncode': 0}
+[7.451034] (-) TimerEvent: {}
+[7.484971] (motor_control_package) JobEnded: {'identifier': 'motor_control_package', 'rc': 0}
+[7.488044] (-) EventReactorShutdown: {}

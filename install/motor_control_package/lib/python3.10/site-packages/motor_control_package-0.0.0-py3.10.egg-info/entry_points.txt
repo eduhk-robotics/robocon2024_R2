@@ -1,0 +1,5 @@
+[console_scripts]
+motor_control_publisher = motor_control_package.motor_control_publisher:main
+motor_control_subscriber = motor_control_package.motor_control_subscriber:main
+motor_data_reader = motor_control_package.motor_data_reader:main
+

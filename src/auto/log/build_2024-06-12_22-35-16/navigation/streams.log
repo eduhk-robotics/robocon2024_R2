@@ -1,0 +1,22 @@
+[4.017s] Invoking command in '/home/eduhkrobotic2/r2_ros/src/navigation': PYTHONPATH=/home/eduhkrobotic2/r2_ros/build/navigation/prefix_override:/home/eduhkrobotic2/r2_ros/install/navigation/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/navigation build --build-base /home/eduhkrobotic2/r2_ros/build/navigation/build install --record /home/eduhkrobotic2/r2_ros/build/navigation/install.log --single-version-externally-managed install_data
+[5.581s] running egg_info
+[5.588s] writing ../../build/navigation/navigation.egg-info/PKG-INFO
+[5.589s] writing dependency_links to ../../build/navigation/navigation.egg-info/dependency_links.txt
+[5.591s] writing entry points to ../../build/navigation/navigation.egg-info/entry_points.txt
+[5.593s] writing requirements to ../../build/navigation/navigation.egg-info/requires.txt
+[5.594s] writing top-level names to ../../build/navigation/navigation.egg-info/top_level.txt
+[5.602s] reading manifest file '../../build/navigation/navigation.egg-info/SOURCES.txt'
+[5.607s] writing manifest file '../../build/navigation/navigation.egg-info/SOURCES.txt'
+[5.608s] running build
+[5.609s] running build_py
+[5.611s] running install
+[5.612s] running install_lib
+[5.620s] running install_data
+[5.621s] running install_egg_info
+[5.629s] removing '/home/eduhkrobotic2/r2_ros/install/navigation/lib/python3.10/site-packages/navigation-0.0.0-py3.10.egg-info' (and everything under it)
+[5.632s] Copying ../../build/navigation/navigation.egg-info to /home/eduhkrobotic2/r2_ros/install/navigation/lib/python3.10/site-packages/navigation-0.0.0-py3.10.egg-info
+[5.638s] running install_scripts
+[5.740s] Installing navigation_node script to /home/eduhkrobotic2/r2_ros/install/navigation/lib/navigation
+[5.744s] Installing omni_pid script to /home/eduhkrobotic2/r2_ros/install/navigation/lib/navigation
+[5.746s] writing list of installed files to '/home/eduhkrobotic2/r2_ros/build/navigation/install.log'
+[5.988s] Invoked command in '/home/eduhkrobotic2/r2_ros/src/navigation' returned '0': PYTHONPATH=/home/eduhkrobotic2/r2_ros/build/navigation/prefix_override:/home/eduhkrobotic2/r2_ros/install/navigation/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/navigation build --build-base /home/eduhkrobotic2/r2_ros/build/navigation/build install --record /home/eduhkrobotic2/r2_ros/build/navigation/install.log --single-version-externally-managed install_data

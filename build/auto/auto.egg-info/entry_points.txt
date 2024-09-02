@@ -1,0 +1,2 @@
+[console_scripts]
+webcam_node = auto.webcam_node:main

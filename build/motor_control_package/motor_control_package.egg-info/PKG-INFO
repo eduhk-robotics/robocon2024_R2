@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: motor_control_package
+Version: 0.0.0
+Summary: Package for motor control communication with Arduino
+Maintainer: your_name
+Maintainer-email: your_email@example.com
+License: Apache License 2.0
+Requires-Dist: setuptools
+Requires-Dist: rclpy
+Requires-Dist: pyserial

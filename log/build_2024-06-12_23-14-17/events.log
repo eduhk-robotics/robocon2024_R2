@@ -1,0 +1,17 @@
+[0.000000] (-) TimerEvent: {}
+[0.002228] (-) JobUnselected: {'identifier': 'motor_control_package'}
+[0.002972] (-) JobUnselected: {'identifier': 'ps4'}
+[0.003831] (navigation) JobQueued: {'identifier': 'navigation', 'dependencies': OrderedDict()}
+[0.004143] (navigation) JobStarted: {'identifier': 'navigation'}
+[0.098611] (-) TimerEvent: {}
+[0.199770] (-) TimerEvent: {}
+[0.300697] (-) TimerEvent: {}
+[0.401662] (-) TimerEvent: {}
+[0.502596] (-) TimerEvent: {}
+[0.603608] (-) TimerEvent: {}
+[0.704458] (-) TimerEvent: {}
+[0.805410] (-) TimerEvent: {}
+[0.906511] (-) TimerEvent: {}
+[1.007256] (-) TimerEvent: {}
+[1.044890] (navigation) JobEnded: {'identifier': 'navigation', 'rc': 0}
+[1.056825] (-) EventReactorShutdown: {}

@@ -1,0 +1,4 @@
+[console_scripts]
+omni_pid = r2_auto.omni_pid:main
+r2_main_node = r2_auto.r2_main:main
+r2_ps4_node = r2_auto.r2_ps4:main

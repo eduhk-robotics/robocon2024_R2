@@ -1,0 +1,43 @@
+[3.000s] Invoking command in '/home/eduhkrobotic2/r2_ros/src/arduino_comm': PYTHONPATH=/home/eduhkrobotic2/r2_ros/build/motor_control_package/prefix_override:/home/eduhkrobotic2/r2_ros/install/motor_control_package/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/motor_control_package build --build-base /home/eduhkrobotic2/r2_ros/build/motor_control_package/build install --record /home/eduhkrobotic2/r2_ros/build/motor_control_package/install.log --single-version-externally-managed install_data
+[4.208s] running egg_info
+[4.210s] creating ../../build/motor_control_package/arduino_comm.egg-info
+[4.210s] writing ../../build/motor_control_package/arduino_comm.egg-info/PKG-INFO
+[4.211s] writing dependency_links to ../../build/motor_control_package/arduino_comm.egg-info/dependency_links.txt
+[4.213s] writing entry points to ../../build/motor_control_package/arduino_comm.egg-info/entry_points.txt
+[4.213s] writing requirements to ../../build/motor_control_package/arduino_comm.egg-info/requires.txt
+[4.214s] writing top-level names to ../../build/motor_control_package/arduino_comm.egg-info/top_level.txt
+[4.215s] writing manifest file '../../build/motor_control_package/arduino_comm.egg-info/SOURCES.txt'
+[4.222s] reading manifest file '../../build/motor_control_package/arduino_comm.egg-info/SOURCES.txt'
+[4.225s] writing manifest file '../../build/motor_control_package/arduino_comm.egg-info/SOURCES.txt'
+[4.226s] running build
+[4.227s] running build_py
+[4.227s] creating /home/eduhkrobotic2/r2_ros/build/motor_control_package/build
+[4.228s] creating /home/eduhkrobotic2/r2_ros/build/motor_control_package/build/lib
+[4.228s] creating /home/eduhkrobotic2/r2_ros/build/motor_control_package/build/lib/arduino_comm
+[4.229s] copying arduino_comm/motor_data_reader.py -> /home/eduhkrobotic2/r2_ros/build/motor_control_package/build/lib/arduino_comm
+[4.229s] copying arduino_comm/__init__.py -> /home/eduhkrobotic2/r2_ros/build/motor_control_package/build/lib/arduino_comm
+[4.229s] copying arduino_comm/motor_control_publisher.py -> /home/eduhkrobotic2/r2_ros/build/motor_control_package/build/lib/arduino_comm
+[4.230s] copying arduino_comm/motor_control_subscriber.py -> /home/eduhkrobotic2/r2_ros/build/motor_control_package/build/lib/arduino_comm
+[4.231s] running install
+[4.232s] running install_lib
+[4.235s] creating /home/eduhkrobotic2/r2_ros/install/motor_control_package/lib/python3.10/site-packages/arduino_comm
+[4.236s] copying /home/eduhkrobotic2/r2_ros/build/motor_control_package/build/lib/arduino_comm/motor_data_reader.py -> /home/eduhkrobotic2/r2_ros/install/motor_control_package/lib/python3.10/site-packages/arduino_comm
+[4.237s] copying /home/eduhkrobotic2/r2_ros/build/motor_control_package/build/lib/arduino_comm/__init__.py -> /home/eduhkrobotic2/r2_ros/install/motor_control_package/lib/python3.10/site-packages/arduino_comm
+[4.238s] copying /home/eduhkrobotic2/r2_ros/build/motor_control_package/build/lib/arduino_comm/motor_control_publisher.py -> /home/eduhkrobotic2/r2_ros/install/motor_control_package/lib/python3.10/site-packages/arduino_comm
+[4.238s] copying /home/eduhkrobotic2/r2_ros/build/motor_control_package/build/lib/arduino_comm/motor_control_subscriber.py -> /home/eduhkrobotic2/r2_ros/install/motor_control_package/lib/python3.10/site-packages/arduino_comm
+[4.241s] byte-compiling /home/eduhkrobotic2/r2_ros/install/motor_control_package/lib/python3.10/site-packages/arduino_comm/motor_data_reader.py to motor_data_reader.cpython-310.pyc
+[4.243s] byte-compiling /home/eduhkrobotic2/r2_ros/install/motor_control_package/lib/python3.10/site-packages/arduino_comm/__init__.py to __init__.cpython-310.pyc
+[4.244s] byte-compiling /home/eduhkrobotic2/r2_ros/install/motor_control_package/lib/python3.10/site-packages/arduino_comm/motor_control_publisher.py to motor_control_publisher.cpython-310.pyc
+[4.246s] byte-compiling /home/eduhkrobotic2/r2_ros/install/motor_control_package/lib/python3.10/site-packages/arduino_comm/motor_control_subscriber.py to motor_control_subscriber.cpython-310.pyc
+[4.248s] running install_data
+[4.249s] copying resource/arduino_comm -> /home/eduhkrobotic2/r2_ros/install/motor_control_package/share/ament_index/resource_index/packages
+[4.250s] creating /home/eduhkrobotic2/r2_ros/install/motor_control_package/share/arduino_comm
+[4.250s] copying package.xml -> /home/eduhkrobotic2/r2_ros/install/motor_control_package/share/arduino_comm
+[4.251s] running install_egg_info
+[4.259s] Copying ../../build/motor_control_package/arduino_comm.egg-info to /home/eduhkrobotic2/r2_ros/install/motor_control_package/lib/python3.10/site-packages/arduino_comm-0.0.0-py3.10.egg-info
+[4.267s] running install_scripts
+[4.347s] Installing motor_control_publisher script to /home/eduhkrobotic2/r2_ros/install/motor_control_package/lib/arduino_comm
+[4.347s] Installing motor_control_subscriber script to /home/eduhkrobotic2/r2_ros/install/motor_control_package/lib/arduino_comm
+[4.348s] Installing motor_data_reader script to /home/eduhkrobotic2/r2_ros/install/motor_control_package/lib/arduino_comm
+[4.350s] writing list of installed files to '/home/eduhkrobotic2/r2_ros/build/motor_control_package/install.log'
+[4.491s] Invoked command in '/home/eduhkrobotic2/r2_ros/src/arduino_comm' returned '0': PYTHONPATH=/home/eduhkrobotic2/r2_ros/build/motor_control_package/prefix_override:/home/eduhkrobotic2/r2_ros/install/motor_control_package/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/motor_control_package build --build-base /home/eduhkrobotic2/r2_ros/build/motor_control_package/build install --record /home/eduhkrobotic2/r2_ros/build/motor_control_package/install.log --single-version-externally-managed install_data

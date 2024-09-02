@@ -1,0 +1,2 @@
+[console_scripts]
+r2_ps4 = R2_main.r2_ps4:main

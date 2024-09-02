@@ -1,0 +1,23 @@
+[11.092s] Invoking command in '/home/eduhkrobotic2/r2_ros/src/auto': PYTHONPATH=/home/eduhkrobotic2/r2_ros/build/auto/prefix_override:/home/eduhkrobotic2/r2_ros/install/auto/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/auto build --build-base /home/eduhkrobotic2/r2_ros/build/auto/build install --record /home/eduhkrobotic2/r2_ros/build/auto/install.log --single-version-externally-managed install_data
+[13.537s] running egg_info
+[13.708s] writing ../../build/auto/auto.egg-info/PKG-INFO
+[13.711s] writing dependency_links to ../../build/auto/auto.egg-info/dependency_links.txt
+[13.713s] writing entry points to ../../build/auto/auto.egg-info/entry_points.txt
+[13.715s] writing requirements to ../../build/auto/auto.egg-info/requires.txt
+[13.716s] writing top-level names to ../../build/auto/auto.egg-info/top_level.txt
+[14.078s] reading manifest file '../../build/auto/auto.egg-info/SOURCES.txt'
+[14.083s] writing manifest file '../../build/auto/auto.egg-info/SOURCES.txt'
+[14.085s] running build
+[14.085s] running build_py
+[14.086s] copying auto/__init__.py -> /home/eduhkrobotic2/r2_ros/build/auto/build/lib/auto
+[14.089s] running install
+[14.121s] running install_lib
+[14.310s] running install_data
+[14.311s] copying resource/auto -> /home/eduhkrobotic2/r2_ros/install/auto/share/ament_index/resource_index/packages
+[14.312s] running install_egg_info
+[14.559s] removing '/home/eduhkrobotic2/r2_ros/install/auto/lib/python3.10/site-packages/auto-0.0.0-py3.10.egg-info' (and everything under it)
+[14.574s] Copying ../../build/auto/auto.egg-info to /home/eduhkrobotic2/r2_ros/install/auto/lib/python3.10/site-packages/auto-0.0.0-py3.10.egg-info
+[14.612s] running install_scripts
+[16.435s] Installing webcam_node script to /home/eduhkrobotic2/r2_ros/install/auto/lib/auto
+[16.437s] writing list of installed files to '/home/eduhkrobotic2/r2_ros/build/auto/install.log'
+[17.277s] Invoked command in '/home/eduhkrobotic2/r2_ros/src/auto' returned '0': PYTHONPATH=/home/eduhkrobotic2/r2_ros/build/auto/prefix_override:/home/eduhkrobotic2/r2_ros/install/auto/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/auto build --build-base /home/eduhkrobotic2/r2_ros/build/auto/build install --record /home/eduhkrobotic2/r2_ros/build/auto/install.log --single-version-externally-managed install_data

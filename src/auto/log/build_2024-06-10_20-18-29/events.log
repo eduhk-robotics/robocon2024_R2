@@ -1,0 +1,91 @@
+[0.000000] (-) TimerEvent: {}
+[0.000980] (arduino_comm) JobQueued: {'identifier': 'arduino_comm', 'dependencies': OrderedDict()}
+[0.001963] (arduino_comm) JobStarted: {'identifier': 'arduino_comm'}
+[0.099201] (-) TimerEvent: {}
+[0.199892] (-) TimerEvent: {}
+[0.300540] (-) TimerEvent: {}
+[0.401248] (-) TimerEvent: {}
+[0.501981] (-) TimerEvent: {}
+[0.602577] (-) TimerEvent: {}
+[0.703183] (-) TimerEvent: {}
+[0.803793] (-) TimerEvent: {}
+[0.904495] (-) TimerEvent: {}
+[1.005165] (-) TimerEvent: {}
+[1.105803] (-) TimerEvent: {}
+[1.206738] (-) TimerEvent: {}
+[1.307661] (-) TimerEvent: {}
+[1.408311] (-) TimerEvent: {}
+[1.508997] (-) TimerEvent: {}
+[1.609658] (-) TimerEvent: {}
+[1.710279] (-) TimerEvent: {}
+[1.810933] (-) TimerEvent: {}
+[1.911525] (-) TimerEvent: {}
+[2.012124] (-) TimerEvent: {}
+[2.112759] (-) TimerEvent: {}
+[2.213358] (-) TimerEvent: {}
+[2.314019] (-) TimerEvent: {}
+[2.414729] (-) TimerEvent: {}
+[2.515368] (-) TimerEvent: {}
+[2.616117] (-) TimerEvent: {}
+[2.717258] (-) TimerEvent: {}
+[2.767136] (arduino_comm) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/arduino_comm', 'build', '--build-base', '/home/eduhkrobotic2/r2_ros/build/arduino_comm/build', 'install', '--record', '/home/eduhkrobotic2/r2_ros/build/arduino_comm/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/eduhkrobotic2/r2_ros/src/arduino_comm', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'LANGUAGE': 'en_HK:en', 'USER': 'eduhkrobotic2', 'SSH_CLIENT': '192.168.246.36 61048 22', 'XDG_SESSION_TYPE': 'tty', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib', 'MOTD_SHOWN': 'pam', 'HOME': '/home/eduhkrobotic2', 'OLDPWD': '/home/eduhkrobotic2/r2_ros/src', 'SSH_TTY': '/dev/pts/1', 'ROS_PYTHON_VERSION': '3', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLCON_PREFIX_PATH': '/home/eduhkrobotic2/ros2_ws/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'eduhkrobotic2', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm', 'XDG_SESSION_ID': '4', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1000', 'LANG': 'en_HK.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'AMENT_PREFIX_PATH': '/home/eduhkrobotic2/ros2_ws/install/arduino_comm:/opt/ros/humble', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'PWD': '/home/eduhkrobotic2/r2_ros/build/arduino_comm', 'SSH_CONNECTION': '192.168.246.36 61048 172.19.253.210 22', 'XDG_DATA_DIRS': '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/eduhkrobotic2/r2_ros/build/arduino_comm/prefix_override:/home/eduhkrobotic2/r2_ros/install/arduino_comm/lib/python3.10/site-packages:/home/eduhkrobotic2/ros2_ws/install/arduino_comm/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1'}, 'shell': False}
+[2.817409] (-) TimerEvent: {}
+[2.918070] (-) TimerEvent: {}
+[3.018782] (-) TimerEvent: {}
+[3.119403] (-) TimerEvent: {}
+[3.220023] (-) TimerEvent: {}
+[3.320636] (-) TimerEvent: {}
+[3.421230] (-) TimerEvent: {}
+[3.521850] (-) TimerEvent: {}
+[3.622426] (-) TimerEvent: {}
+[3.723135] (-) TimerEvent: {}
+[3.823750] (-) TimerEvent: {}
+[3.895491] (arduino_comm) StdoutLine: {'line': b'running egg_info\n'}
+[3.897672] (arduino_comm) StdoutLine: {'line': b'creating ../../build/arduino_comm/arduino_comm.egg-info\n'}
+[3.898500] (arduino_comm) StdoutLine: {'line': b'writing ../../build/arduino_comm/arduino_comm.egg-info/PKG-INFO\n'}
+[3.899518] (arduino_comm) StdoutLine: {'line': b'writing dependency_links to ../../build/arduino_comm/arduino_comm.egg-info/dependency_links.txt\n'}
+[3.900137] (arduino_comm) StdoutLine: {'line': b'writing entry points to ../../build/arduino_comm/arduino_comm.egg-info/entry_points.txt\n'}
+[3.900666] (arduino_comm) StdoutLine: {'line': b'writing requirements to ../../build/arduino_comm/arduino_comm.egg-info/requires.txt\n'}
+[3.901153] (arduino_comm) StdoutLine: {'line': b'writing top-level names to ../../build/arduino_comm/arduino_comm.egg-info/top_level.txt\n'}
+[3.902159] (arduino_comm) StdoutLine: {'line': b"writing manifest file '../../build/arduino_comm/arduino_comm.egg-info/SOURCES.txt'\n"}
+[3.909900] (arduino_comm) StdoutLine: {'line': b"reading manifest file '../../build/arduino_comm/arduino_comm.egg-info/SOURCES.txt'\n"}
+[3.913168] (arduino_comm) StdoutLine: {'line': b"writing manifest file '../../build/arduino_comm/arduino_comm.egg-info/SOURCES.txt'\n"}
+[3.913762] (arduino_comm) StdoutLine: {'line': b'running build\n'}
+[3.914217] (arduino_comm) StdoutLine: {'line': b'running build_py\n'}
+[3.914909] (arduino_comm) StdoutLine: {'line': b'creating /home/eduhkrobotic2/r2_ros/build/arduino_comm/build\n'}
+[3.915486] (arduino_comm) StdoutLine: {'line': b'creating /home/eduhkrobotic2/r2_ros/build/arduino_comm/build/lib\n'}
+[3.915899] (arduino_comm) StdoutLine: {'line': b'creating /home/eduhkrobotic2/r2_ros/build/arduino_comm/build/lib/arduino_comm\n'}
+[3.916220] (arduino_comm) StdoutLine: {'line': b'copying arduino_comm/motor_data_subscriber.py -> /home/eduhkrobotic2/r2_ros/build/arduino_comm/build/lib/arduino_comm\n'}
+[3.916695] (arduino_comm) StdoutLine: {'line': b'copying arduino_comm/arduino_mega_m3508_comm_node.py -> /home/eduhkrobotic2/r2_ros/build/arduino_comm/build/lib/arduino_comm\n'}
+[3.917313] (arduino_comm) StdoutLine: {'line': b'copying arduino_comm/__init__.py -> /home/eduhkrobotic2/r2_ros/build/arduino_comm/build/lib/arduino_comm\n'}
+[3.917971] (arduino_comm) StdoutLine: {'line': b'copying arduino_comm/motor_control_publisher.py -> /home/eduhkrobotic2/r2_ros/build/arduino_comm/build/lib/arduino_comm\n'}
+[3.919051] (arduino_comm) StdoutLine: {'line': b'running install\n'}
+[3.920303] (arduino_comm) StdoutLine: {'line': b'running install_lib\n'}
+[3.923382] (arduino_comm) StdoutLine: {'line': b'creating /home/eduhkrobotic2/r2_ros/install/arduino_comm/lib/python3.10/site-packages/arduino_comm\n'}
+[3.923899] (-) TimerEvent: {}
+[3.924258] (arduino_comm) StdoutLine: {'line': b'copying /home/eduhkrobotic2/r2_ros/build/arduino_comm/build/lib/arduino_comm/motor_data_subscriber.py -> /home/eduhkrobotic2/r2_ros/install/arduino_comm/lib/python3.10/site-packages/arduino_comm\n'}
+[3.924810] (arduino_comm) StdoutLine: {'line': b'copying /home/eduhkrobotic2/r2_ros/build/arduino_comm/build/lib/arduino_comm/arduino_mega_m3508_comm_node.py -> /home/eduhkrobotic2/r2_ros/install/arduino_comm/lib/python3.10/site-packages/arduino_comm\n'}
+[3.925546] (arduino_comm) StdoutLine: {'line': b'copying /home/eduhkrobotic2/r2_ros/build/arduino_comm/build/lib/arduino_comm/__init__.py -> /home/eduhkrobotic2/r2_ros/install/arduino_comm/lib/python3.10/site-packages/arduino_comm\n'}
+[3.926259] (arduino_comm) StdoutLine: {'line': b'copying /home/eduhkrobotic2/r2_ros/build/arduino_comm/build/lib/arduino_comm/motor_control_publisher.py -> /home/eduhkrobotic2/r2_ros/install/arduino_comm/lib/python3.10/site-packages/arduino_comm\n'}
+[3.928721] (arduino_comm) StdoutLine: {'line': b'byte-compiling /home/eduhkrobotic2/r2_ros/install/arduino_comm/lib/python3.10/site-packages/arduino_comm/motor_data_subscriber.py to motor_data_subscriber.cpython-310.pyc\n'}
+[3.930780] (arduino_comm) StdoutLine: {'line': b'byte-compiling /home/eduhkrobotic2/r2_ros/install/arduino_comm/lib/python3.10/site-packages/arduino_comm/arduino_mega_m3508_comm_node.py to arduino_mega_m3508_comm_node.cpython-310.pyc\n'}
+[3.933065] (arduino_comm) StdoutLine: {'line': b'byte-compiling /home/eduhkrobotic2/r2_ros/install/arduino_comm/lib/python3.10/site-packages/arduino_comm/__init__.py to __init__.cpython-310.pyc\n'}
+[3.934158] (arduino_comm) StdoutLine: {'line': b'byte-compiling /home/eduhkrobotic2/r2_ros/install/arduino_comm/lib/python3.10/site-packages/arduino_comm/motor_control_publisher.py to motor_control_publisher.cpython-310.pyc\n'}
+[3.936003] (arduino_comm) StdoutLine: {'line': b'running install_data\n'}
+[3.936554] (arduino_comm) StdoutLine: {'line': b'creating /home/eduhkrobotic2/r2_ros/install/arduino_comm/share/ament_index\n'}
+[3.937062] (arduino_comm) StdoutLine: {'line': b'creating /home/eduhkrobotic2/r2_ros/install/arduino_comm/share/ament_index/resource_index\n'}
+[3.937553] (arduino_comm) StdoutLine: {'line': b'creating /home/eduhkrobotic2/r2_ros/install/arduino_comm/share/ament_index/resource_index/packages\n'}
+[3.937934] (arduino_comm) StdoutLine: {'line': b'copying resource/arduino_comm -> /home/eduhkrobotic2/r2_ros/install/arduino_comm/share/ament_index/resource_index/packages\n'}
+[3.938378] (arduino_comm) StdoutLine: {'line': b'copying package.xml -> /home/eduhkrobotic2/r2_ros/install/arduino_comm/share/arduino_comm\n'}
+[3.938858] (arduino_comm) StdoutLine: {'line': b'running install_egg_info\n'}
+[3.945230] (arduino_comm) StdoutLine: {'line': b'Copying ../../build/arduino_comm/arduino_comm.egg-info to /home/eduhkrobotic2/r2_ros/install/arduino_comm/lib/python3.10/site-packages/arduino_comm-0.0.0-py3.10.egg-info\n'}
+[3.950547] (arduino_comm) StdoutLine: {'line': b'running install_scripts\n'}
+[4.024116] (-) TimerEvent: {}
+[4.027750] (arduino_comm) StdoutLine: {'line': b'Installing arduino_mega_m3508_comm_node script to /home/eduhkrobotic2/r2_ros/install/arduino_comm/lib/arduino_comm\n'}
+[4.028470] (arduino_comm) StdoutLine: {'line': b'Installing motor_control_publisher script to /home/eduhkrobotic2/r2_ros/install/arduino_comm/lib/arduino_comm\n'}
+[4.029101] (arduino_comm) StdoutLine: {'line': b'Installing motor_data_subscriber script to /home/eduhkrobotic2/r2_ros/install/arduino_comm/lib/arduino_comm\n'}
+[4.030605] (arduino_comm) StdoutLine: {'line': b"writing list of installed files to '/home/eduhkrobotic2/r2_ros/build/arduino_comm/install.log'\n"}
+[4.124476] (-) TimerEvent: {}
+[4.161755] (arduino_comm) CommandEnded: {'returncode': 0}
+[4.207003] (arduino_comm) JobEnded: {'identifier': 'arduino_comm', 'rc': 0}
+[4.209587] (-) EventReactorShutdown: {}

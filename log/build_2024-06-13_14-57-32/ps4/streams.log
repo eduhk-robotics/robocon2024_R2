@@ -1,0 +1,22 @@
+[6.632s] Invoking command in '/home/eduhkrobotic2/r2_ros/src/ps4': PYTHONPATH=/home/eduhkrobotic2/r2_ros/build/ps4/prefix_override:/home/eduhkrobotic2/r2_ros/install/ps4/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/ps4 build --build-base /home/eduhkrobotic2/r2_ros/build/ps4/build install --record /home/eduhkrobotic2/r2_ros/build/ps4/install.log --single-version-externally-managed install_data
+[8.178s] running egg_info
+[8.185s] writing ../../build/ps4/ps4.egg-info/PKG-INFO
+[8.186s] writing dependency_links to ../../build/ps4/ps4.egg-info/dependency_links.txt
+[8.188s] writing entry points to ../../build/ps4/ps4.egg-info/entry_points.txt
+[8.189s] writing requirements to ../../build/ps4/ps4.egg-info/requires.txt
+[8.190s] writing top-level names to ../../build/ps4/ps4.egg-info/top_level.txt
+[8.201s] reading manifest file '../../build/ps4/ps4.egg-info/SOURCES.txt'
+[8.206s] writing manifest file '../../build/ps4/ps4.egg-info/SOURCES.txt'
+[8.207s] running build
+[8.208s] running build_py
+[8.211s] running install
+[8.213s] running install_lib
+[8.223s] running install_data
+[8.225s] running install_egg_info
+[8.230s] removing '/home/eduhkrobotic2/r2_ros/install/ps4/lib/python3.10/site-packages/ps4-0.0.0-py3.10.egg-info' (and everything under it)
+[8.232s] Copying ../../build/ps4/ps4.egg-info to /home/eduhkrobotic2/r2_ros/install/ps4/lib/python3.10/site-packages/ps4-0.0.0-py3.10.egg-info
+[8.242s] running install_scripts
+[8.341s] Installing ps4_publisher script to /home/eduhkrobotic2/r2_ros/install/ps4/lib/ps4
+[8.342s] Installing ps4_subscriber script to /home/eduhkrobotic2/r2_ros/install/ps4/lib/ps4
+[8.345s] writing list of installed files to '/home/eduhkrobotic2/r2_ros/build/ps4/install.log'
+[8.647s] Invoked command in '/home/eduhkrobotic2/r2_ros/src/ps4' returned '0': PYTHONPATH=/home/eduhkrobotic2/r2_ros/build/ps4/prefix_override:/home/eduhkrobotic2/r2_ros/install/ps4/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/ps4 build --build-base /home/eduhkrobotic2/r2_ros/build/ps4/build install --record /home/eduhkrobotic2/r2_ros/build/ps4/install.log --single-version-externally-managed install_data

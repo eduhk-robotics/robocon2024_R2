@@ -1,0 +1,24 @@
+running develop
+running egg_info
+creating sensor.egg-info
+writing sensor.egg-info/PKG-INFO
+writing dependency_links to sensor.egg-info/dependency_links.txt
+writing entry points to sensor.egg-info/entry_points.txt
+writing requirements to sensor.egg-info/requires.txt
+writing top-level names to sensor.egg-info/top_level.txt
+writing manifest file 'sensor.egg-info/SOURCES.txt'
+reading manifest file 'sensor.egg-info/SOURCES.txt'
+writing manifest file 'sensor.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/eduhkrobotic2/r2_ros/install/sensor/lib/python3.10/site-packages/sensor.egg-link (link to .)
+Installing gyrosensor script to /home/eduhkrobotic2/r2_ros/install/sensor/lib/sensor
+Installing sensor_publisher script to /home/eduhkrobotic2/r2_ros/install/sensor/lib/sensor
+Installing stp32l script to /home/eduhkrobotic2/r2_ros/install/sensor/lib/sensor
+
+Installed /home/eduhkrobotic2/r2_ros/build/sensor
+running symlink_data
+creating /home/eduhkrobotic2/r2_ros/install/sensor/share/ament_index
+creating /home/eduhkrobotic2/r2_ros/install/sensor/share/ament_index/resource_index
+creating /home/eduhkrobotic2/r2_ros/install/sensor/share/ament_index/resource_index/packages
+symbolically linking /home/eduhkrobotic2/r2_ros/build/sensor/resource/sensor -> /home/eduhkrobotic2/r2_ros/install/sensor/share/ament_index/resource_index/packages
+symbolically linking /home/eduhkrobotic2/r2_ros/build/sensor/package.xml -> /home/eduhkrobotic2/r2_ros/install/sensor/share/sensor

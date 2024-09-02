@@ -1,0 +1,18 @@
+[7.924s] Invoking command in '/home/eduhkrobotic2/r2_ros/build/ps4': PYTHONPATH=/home/eduhkrobotic2/r2_ros/build/ps4/prefix_override:/home/eduhkrobotic2/r2_ros/install/ps4/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/eduhkrobotic2/r2_ros/build/ps4/build --no-deps symlink_data
+[9.889s] running develop
+[11.164s] running egg_info
+[11.169s] writing ps4.egg-info/PKG-INFO
+[11.187s] writing dependency_links to ps4.egg-info/dependency_links.txt
+[11.197s] writing entry points to ps4.egg-info/entry_points.txt
+[11.201s] writing requirements to ps4.egg-info/requires.txt
+[11.225s] writing top-level names to ps4.egg-info/top_level.txt
+[11.233s] reading manifest file 'ps4.egg-info/SOURCES.txt'
+[11.244s] writing manifest file 'ps4.egg-info/SOURCES.txt'
+[11.263s] running build_ext
+[11.268s] Creating /home/eduhkrobotic2/r2_ros/install/ps4/lib/python3.10/site-packages/ps4.egg-link (link to .)
+[11.284s] Installing ps4_publisher script to /home/eduhkrobotic2/r2_ros/install/ps4/lib/ps4
+[11.293s] Installing ps4_subscriber script to /home/eduhkrobotic2/r2_ros/install/ps4/lib/ps4
+[11.296s] 
+[11.298s] Installed /home/eduhkrobotic2/r2_ros/build/ps4
+[11.300s] running symlink_data
+[11.769s] Invoked command in '/home/eduhkrobotic2/r2_ros/build/ps4' returned '0': PYTHONPATH=/home/eduhkrobotic2/r2_ros/build/ps4/prefix_override:/home/eduhkrobotic2/r2_ros/install/ps4/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/eduhkrobotic2/r2_ros/build/ps4/build --no-deps symlink_data

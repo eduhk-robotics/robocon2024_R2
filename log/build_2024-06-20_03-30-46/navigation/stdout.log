@@ -1,0 +1,18 @@
+running develop
+running egg_info
+writing navigation.egg-info/PKG-INFO
+writing dependency_links to navigation.egg-info/dependency_links.txt
+writing entry points to navigation.egg-info/entry_points.txt
+writing requirements to navigation.egg-info/requires.txt
+writing top-level names to navigation.egg-info/top_level.txt
+reading manifest file 'navigation.egg-info/SOURCES.txt'
+writing manifest file 'navigation.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/eduhkrobotic2/r2_ros/install/navigation/lib/python3.10/site-packages/navigation.egg-link (link to .)
+Installing navigation_node script to /home/eduhkrobotic2/r2_ros/install/navigation/lib/navigation
+Installing omni_pid script to /home/eduhkrobotic2/r2_ros/install/navigation/lib/navigation
+
+Installed /home/eduhkrobotic2/r2_ros/build/navigation
+running symlink_data
+symbolically linking /home/eduhkrobotic2/r2_ros/build/navigation/resource/navigation -> /home/eduhkrobotic2/r2_ros/install/navigation/share/ament_index/resource_index/packages
+symbolically linking /home/eduhkrobotic2/r2_ros/build/navigation/package.xml -> /home/eduhkrobotic2/r2_ros/install/navigation/share/navigation

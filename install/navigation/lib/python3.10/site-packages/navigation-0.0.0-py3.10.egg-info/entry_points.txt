@@ -1,0 +1,4 @@
+[console_scripts]
+movement_control = navigation.movement_control:main
+navigation_node = navigation.navigation_node:main
+omni_pid = navigation.omni_pid:main

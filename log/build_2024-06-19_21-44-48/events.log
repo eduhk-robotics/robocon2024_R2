@@ -1,0 +1,143 @@
+[0.000000] (-) TimerEvent: {}
+[0.001775] (-) JobUnselected: {'identifier': 'auto'}
+[0.002570] (-) JobUnselected: {'identifier': 'motor_control_package'}
+[0.002664] (-) JobUnselected: {'identifier': 'navigation'}
+[0.002744] (-) JobUnselected: {'identifier': 'ps4'}
+[0.002824] (-) JobUnselected: {'identifier': 'sensor'}
+[0.002910] (R2_main) JobQueued: {'identifier': 'R2_main', 'dependencies': OrderedDict()}
+[0.003000] (R2_main) JobStarted: {'identifier': 'R2_main'}
+[0.099177] (-) TimerEvent: {}
+[0.200096] (-) TimerEvent: {}
+[0.300737] (-) TimerEvent: {}
+[0.401579] (-) TimerEvent: {}
+[0.502222] (-) TimerEvent: {}
+[0.602897] (-) TimerEvent: {}
+[0.703569] (-) TimerEvent: {}
+[0.804317] (-) TimerEvent: {}
+[0.905600] (-) TimerEvent: {}
+[1.006775] (-) TimerEvent: {}
+[1.108531] (-) TimerEvent: {}
+[1.209733] (-) TimerEvent: {}
+[1.311248] (-) TimerEvent: {}
+[1.412668] (-) TimerEvent: {}
+[1.513720] (-) TimerEvent: {}
+[1.615009] (-) TimerEvent: {}
+[1.715933] (-) TimerEvent: {}
+[1.817320] (-) TimerEvent: {}
+[1.918615] (-) TimerEvent: {}
+[2.019268] (-) TimerEvent: {}
+[2.120487] (-) TimerEvent: {}
+[2.221122] (-) TimerEvent: {}
+[2.321916] (-) TimerEvent: {}
+[2.422546] (-) TimerEvent: {}
+[2.523191] (-) TimerEvent: {}
+[2.623866] (-) TimerEvent: {}
+[2.724634] (-) TimerEvent: {}
+[2.825318] (-) TimerEvent: {}
+[2.926467] (-) TimerEvent: {}
+[3.027680] (-) TimerEvent: {}
+[3.128429] (-) TimerEvent: {}
+[3.229096] (-) TimerEvent: {}
+[3.329730] (-) TimerEvent: {}
+[3.430576] (-) TimerEvent: {}
+[3.531242] (-) TimerEvent: {}
+[3.631879] (-) TimerEvent: {}
+[3.732541] (-) TimerEvent: {}
+[3.833196] (-) TimerEvent: {}
+[3.933993] (-) TimerEvent: {}
+[4.035007] (-) TimerEvent: {}
+[4.135674] (-) TimerEvent: {}
+[4.236393] (-) TimerEvent: {}
+[4.337052] (-) TimerEvent: {}
+[4.437701] (-) TimerEvent: {}
+[4.538324] (-) TimerEvent: {}
+[4.639372] (-) TimerEvent: {}
+[4.740039] (-) TimerEvent: {}
+[4.840733] (-) TimerEvent: {}
+[4.941432] (-) TimerEvent: {}
+[5.042120] (-) TimerEvent: {}
+[5.143139] (-) TimerEvent: {}
+[5.244642] (-) TimerEvent: {}
+[5.346102] (-) TimerEvent: {}
+[5.447083] (-) TimerEvent: {}
+[5.472978] (R2_main) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/R2_main', 'build', '--build-base', '/home/eduhkrobotic2/r2_ros/build/R2_main/build', 'install', '--record', '/home/eduhkrobotic2/r2_ros/build/R2_main/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/eduhkrobotic2/r2_ros/src/R2_main', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'LANGUAGE': 'en_HK:en', 'USER': 'eduhkrobotic2', 'SSH_CLIENT': '172.19.255.92 63431 22', 'XDG_SESSION_TYPE': 'tty', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib', 'MOTD_SHOWN': 'pam', 'HOME': '/home/eduhkrobotic2', 'OLDPWD': '/home/eduhkrobotic2', 'SSH_TTY': '/dev/pts/1', 'ROS_PYTHON_VERSION': '3', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLCON_PREFIX_PATH': '/home/eduhkrobotic2/r2_ros/install:/home/eduhkrobotic2/Robocon2024_R2/ROS2-STP32L/install:/home/eduhkrobotic2/Robocon2024_R2/ROS2-gyrosensor/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'eduhkrobotic2', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm', 'XDG_SESSION_ID': '5', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/home/eduhkrobotic2/.local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1000', 'LANG': 'en_HK.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'AMENT_PREFIX_PATH': '/home/eduhkrobotic2/r2_ros/install/sensor:/home/eduhkrobotic2/r2_ros/install/ps4:/home/eduhkrobotic2/r2_ros/install/navigation:/home/eduhkrobotic2/r2_ros/install/motor_control_package:/home/eduhkrobotic2/r2_ros/install/auto:/home/eduhkrobotic2/r2_ros/install/arduino_comm:/home/eduhkrobotic2/Robocon2024_R2/ROS2-STP32L/install/stp32l:/home/eduhkrobotic2/Robocon2024_R2/ROS2-gyrosensor/install/gyrosensor:/opt/ros/humble', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'PWD': '/home/eduhkrobotic2/r2_ros/build/R2_main', 'SSH_CONNECTION': '172.19.255.92 63431 172.19.253.210 22', 'XDG_DATA_DIRS': '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/eduhkrobotic2/r2_ros/build/R2_main/prefix_override:/home/eduhkrobotic2/r2_ros/install/R2_main/lib/python3.10/site-packages:/home/eduhkrobotic2/r2_ros/install/sensor/lib/python3.10/site-packages:/home/eduhkrobotic2/r2_ros/build/ps4:/home/eduhkrobotic2/r2_ros/install/ps4/lib/python3.10/site-packages:/home/eduhkrobotic2/r2_ros/build/navigation:/home/eduhkrobotic2/r2_ros/install/navigation/lib/python3.10/site-packages:/home/eduhkrobotic2/r2_ros/build/motor_control_package:/home/eduhkrobotic2/r2_ros/install/motor_control_package/lib/python3.10/site-packages:/home/eduhkrobotic2/r2_ros/build/auto:/home/eduhkrobotic2/r2_ros/install/auto/lib/python3.10/site-packages:/home/eduhkrobotic2/r2_ros/install/arduino_comm/lib/python3.10/site-packages:/home/eduhkrobotic2/Robocon2024_R2/ROS2-STP32L/build/stp32l:/home/eduhkrobotic2/Robocon2024_R2/ROS2-STP32L/install/stp32l/lib/python3.10/site-packages:/home/eduhkrobotic2/Robocon2024_R2/ROS2-gyrosensor/build/gyrosensor:/home/eduhkrobotic2/Robocon2024_R2/ROS2-gyrosensor/install/gyrosensor/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1'}, 'shell': False}
+[5.547272] (-) TimerEvent: {}
+[5.647949] (-) TimerEvent: {}
+[5.748732] (-) TimerEvent: {}
+[5.849407] (-) TimerEvent: {}
+[5.950451] (-) TimerEvent: {}
+[6.051104] (-) TimerEvent: {}
+[6.151748] (-) TimerEvent: {}
+[6.252520] (-) TimerEvent: {}
+[6.353141] (-) TimerEvent: {}
+[6.453767] (-) TimerEvent: {}
+[6.554481] (-) TimerEvent: {}
+[6.655230] (-) TimerEvent: {}
+[6.755911] (-) TimerEvent: {}
+[6.856605] (-) TimerEvent: {}
+[6.957258] (-) TimerEvent: {}
+[7.057897] (-) TimerEvent: {}
+[7.111957] (R2_main) StdoutLine: {'line': b'running egg_info\n'}
+[7.114536] (R2_main) StdoutLine: {'line': b'creating ../../build/R2_main/R2_main.egg-info\n'}
+[7.158062] (-) TimerEvent: {}
+[7.222448] (R2_main) StdoutLine: {'line': b'writing ../../build/R2_main/R2_main.egg-info/PKG-INFO\n'}
+[7.224495] (R2_main) StdoutLine: {'line': b'writing dependency_links to ../../build/R2_main/R2_main.egg-info/dependency_links.txt\n'}
+[7.225571] (R2_main) StdoutLine: {'line': b'writing entry points to ../../build/R2_main/R2_main.egg-info/entry_points.txt\n'}
+[7.226490] (R2_main) StdoutLine: {'line': b'writing requirements to ../../build/R2_main/R2_main.egg-info/requires.txt\n'}
+[7.227097] (R2_main) StdoutLine: {'line': b'writing top-level names to ../../build/R2_main/R2_main.egg-info/top_level.txt\n'}
+[7.227768] (R2_main) StdoutLine: {'line': b"writing manifest file '../../build/R2_main/R2_main.egg-info/SOURCES.txt'\n"}
+[7.258222] (-) TimerEvent: {}
+[7.358853] (-) TimerEvent: {}
+[7.448668] (R2_main) StdoutLine: {'line': b"reading manifest file '../../build/R2_main/R2_main.egg-info/SOURCES.txt'\n"}
+[7.452717] (R2_main) StdoutLine: {'line': b"writing manifest file '../../build/R2_main/R2_main.egg-info/SOURCES.txt'\n"}
+[7.453477] (R2_main) StdoutLine: {'line': b'running build\n'}
+[7.454037] (R2_main) StdoutLine: {'line': b'running build_py\n'}
+[7.454791] (R2_main) StdoutLine: {'line': b'creating /home/eduhkrobotic2/r2_ros/build/R2_main/build\n'}
+[7.455461] (R2_main) StdoutLine: {'line': b'creating /home/eduhkrobotic2/r2_ros/build/R2_main/build/lib\n'}
+[7.455936] (R2_main) StdoutLine: {'line': b'creating /home/eduhkrobotic2/r2_ros/build/R2_main/build/lib/R2_main\n'}
+[7.456522] (R2_main) StdoutLine: {'line': b'copying R2_main/omni_pid.py -> /home/eduhkrobotic2/r2_ros/build/R2_main/build/lib/R2_main\n'}
+[7.457817] (R2_main) StdoutLine: {'line': b'copying R2_main/r2_main.py -> /home/eduhkrobotic2/r2_ros/build/R2_main/build/lib/R2_main\n'}
+[7.458744] (R2_main) StdoutLine: {'line': b'copying R2_main/__init__.py -> /home/eduhkrobotic2/r2_ros/build/R2_main/build/lib/R2_main\n'}
+[7.459163] (-) TimerEvent: {}
+[7.459848] (R2_main) StdoutLine: {'line': b'copying R2_main/r2_ps4.py -> /home/eduhkrobotic2/r2_ros/build/R2_main/build/lib/R2_main\n'}
+[7.461705] (R2_main) StdoutLine: {'line': b'running install\n'}
+[7.489340] (R2_main) StdoutLine: {'line': b'running install_lib\n'}
+[7.559347] (-) TimerEvent: {}
+[7.600870] (R2_main) StdoutLine: {'line': b'creating /home/eduhkrobotic2/r2_ros/install/R2_main/lib/python3.10/site-packages/R2_main\n'}
+[7.601712] (R2_main) StdoutLine: {'line': b'copying /home/eduhkrobotic2/r2_ros/build/R2_main/build/lib/R2_main/omni_pid.py -> /home/eduhkrobotic2/r2_ros/install/R2_main/lib/python3.10/site-packages/R2_main\n'}
+[7.602732] (R2_main) StdoutLine: {'line': b'copying /home/eduhkrobotic2/r2_ros/build/R2_main/build/lib/R2_main/r2_main.py -> /home/eduhkrobotic2/r2_ros/install/R2_main/lib/python3.10/site-packages/R2_main\n'}
+[7.603799] (R2_main) StdoutLine: {'line': b'copying /home/eduhkrobotic2/r2_ros/build/R2_main/build/lib/R2_main/__init__.py -> /home/eduhkrobotic2/r2_ros/install/R2_main/lib/python3.10/site-packages/R2_main\n'}
+[7.605119] (R2_main) StdoutLine: {'line': b'copying /home/eduhkrobotic2/r2_ros/build/R2_main/build/lib/R2_main/r2_ps4.py -> /home/eduhkrobotic2/r2_ros/install/R2_main/lib/python3.10/site-packages/R2_main\n'}
+[7.609743] (R2_main) StdoutLine: {'line': b'byte-compiling /home/eduhkrobotic2/r2_ros/install/R2_main/lib/python3.10/site-packages/R2_main/omni_pid.py to omni_pid.cpython-310.pyc\n'}
+[7.616694] (R2_main) StdoutLine: {'line': b'byte-compiling /home/eduhkrobotic2/r2_ros/install/R2_main/lib/python3.10/site-packages/R2_main/r2_main.py to r2_main.cpython-310.pyc\n'}
+[7.617743] (R2_main) StderrLine: {'line': b'Sorry: TabError: inconsistent use of tabs and spaces in indentation (r2_main.py, line 16)\n'}
+[7.618335] (R2_main) StdoutLine: {'line': b'byte-compiling /home/eduhkrobotic2/r2_ros/install/R2_main/lib/python3.10/site-packages/R2_main/__init__.py to __init__.cpython-310.pyc\n'}
+[7.619342] (R2_main) StdoutLine: {'line': b'byte-compiling /home/eduhkrobotic2/r2_ros/install/R2_main/lib/python3.10/site-packages/R2_main/r2_ps4.py to r2_ps4.cpython-310.pyc\n'}
+[7.622023] (R2_main) StdoutLine: {'line': b'running install_data\n'}
+[7.622669] (R2_main) StdoutLine: {'line': b'creating /home/eduhkrobotic2/r2_ros/install/R2_main/share/ament_index\n'}
+[7.623203] (R2_main) StdoutLine: {'line': b'creating /home/eduhkrobotic2/r2_ros/install/R2_main/share/ament_index/resource_index\n'}
+[7.623721] (R2_main) StdoutLine: {'line': b'creating /home/eduhkrobotic2/r2_ros/install/R2_main/share/ament_index/resource_index/packages\n'}
+[7.624191] (R2_main) StdoutLine: {'line': b'copying resource/R2_main -> /home/eduhkrobotic2/r2_ros/install/R2_main/share/ament_index/resource_index/packages\n'}
+[7.625001] (R2_main) StdoutLine: {'line': b'copying package.xml -> /home/eduhkrobotic2/r2_ros/install/R2_main/share/R2_main\n'}
+[7.625711] (R2_main) StdoutLine: {'line': b'running install_egg_info\n'}
+[7.659493] (-) TimerEvent: {}
+[7.742724] (R2_main) StdoutLine: {'line': b'Copying ../../build/R2_main/R2_main.egg-info to /home/eduhkrobotic2/r2_ros/install/R2_main/lib/python3.10/site-packages/R2_main-0.0.0-py3.10.egg-info\n'}
+[7.748148] (R2_main) StdoutLine: {'line': b'running install_scripts\n'}
+[7.759654] (-) TimerEvent: {}
+[7.860330] (-) TimerEvent: {}
+[7.961253] (-) TimerEvent: {}
+[8.061881] (-) TimerEvent: {}
+[8.162520] (-) TimerEvent: {}
+[8.263161] (-) TimerEvent: {}
+[8.363810] (-) TimerEvent: {}
+[8.464478] (-) TimerEvent: {}
+[8.565155] (-) TimerEvent: {}
+[8.665963] (-) TimerEvent: {}
+[8.766610] (-) TimerEvent: {}
+[8.767600] (R2_main) StdoutLine: {'line': b'Installing r2_ps4 script to /home/eduhkrobotic2/r2_ros/install/R2_main/lib/R2_main\n'}
+[8.770046] (R2_main) StdoutLine: {'line': b"writing list of installed files to '/home/eduhkrobotic2/r2_ros/build/R2_main/install.log'\n"}
+[8.867050] (-) TimerEvent: {}
+[8.950839] (R2_main) CommandEnded: {'returncode': 0}
+[8.967173] (-) TimerEvent: {}
+[9.033106] (R2_main) JobEnded: {'identifier': 'R2_main', 'rc': 0}
+[9.036702] (-) EventReactorShutdown: {}

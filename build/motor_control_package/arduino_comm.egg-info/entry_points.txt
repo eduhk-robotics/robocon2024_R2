@@ -1,0 +1,5 @@
+[console_scripts]
+motor_control_publisher = arduino_comm.motor_control_publisher:main
+motor_control_subscriber = arduino_comm.motor_control_subscriber:main
+motor_data_reader = arduino_comm.motor_data_reader:main
+

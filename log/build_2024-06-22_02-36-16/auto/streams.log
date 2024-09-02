@@ -1,0 +1,29 @@
+[13.117s] Invoking command in '/home/eduhkrobotic2/r2_ros/build/auto': PYTHONPATH=/home/eduhkrobotic2/r2_ros/build/auto/prefix_override:/home/eduhkrobotic2/r2_ros/install/auto/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/eduhkrobotic2/r2_ros/build/auto/build --no-deps symlink_data
+[17.058s] running develop
+[17.060s] /home/eduhkrobotic2/.local/lib/python3.10/site-packages/setuptools/command/develop.py:40: EasyInstallDeprecationWarning: easy_install command is deprecated.
+[17.060s] !!
+[17.061s] 
+[17.061s]         ********************************************************************************
+[17.062s]         Please avoid running ``setup.py`` and ``easy_install``.
+[17.062s]         Instead, use pypa/build, pypa/installer or other
+[17.063s]         standards-based tools.
+[17.063s] 
+[17.064s]         See https://github.com/pypa/setuptools/issues/917 for details.
+[17.064s]         ********************************************************************************
+[17.065s] 
+[17.065s] !!
+[17.066s]   easy_install.initialize_options(self)
+[19.754s] running egg_info
+[20.045s] writing auto.egg-info/PKG-INFO
+[20.052s] writing dependency_links to auto.egg-info/dependency_links.txt
+[20.056s] writing entry points to auto.egg-info/entry_points.txt
+[20.060s] writing requirements to auto.egg-info/requires.txt
+[20.066s] writing top-level names to auto.egg-info/top_level.txt
+[20.416s] reading manifest file 'auto.egg-info/SOURCES.txt'
+[20.421s] writing manifest file 'auto.egg-info/SOURCES.txt'
+[20.868s] running build_ext
+[20.868s] Creating /home/eduhkrobotic2/r2_ros/install/auto/lib/python3.10/site-packages/auto.egg-link (link to .)
+[20.872s] Installing webcam_node script to /home/eduhkrobotic2/r2_ros/install/auto/lib/auto
+[20.873s] 
+[20.874s] Installed /home/eduhkrobotic2/r2_ros/build/auto
+[20.875s] running symlink_data

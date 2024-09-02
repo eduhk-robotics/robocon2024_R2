@@ -1,0 +1,16 @@
+running develop
+running egg_info
+writing auto.egg-info/PKG-INFO
+writing dependency_links to auto.egg-info/dependency_links.txt
+writing entry points to auto.egg-info/entry_points.txt
+writing requirements to auto.egg-info/requires.txt
+writing top-level names to auto.egg-info/top_level.txt
+reading manifest file 'auto.egg-info/SOURCES.txt'
+writing manifest file 'auto.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/eduhkrobotic2/r2_ros/install/auto/lib/python3.10/site-packages/auto.egg-link (link to .)
+
+Installed /home/eduhkrobotic2/r2_ros/build/auto
+running symlink_data
+symbolically linking /home/eduhkrobotic2/r2_ros/build/auto/resource/auto -> /home/eduhkrobotic2/r2_ros/install/auto/share/ament_index/resource_index/packages
+symbolically linking /home/eduhkrobotic2/r2_ros/build/auto/package.xml -> /home/eduhkrobotic2/r2_ros/install/auto/share/auto

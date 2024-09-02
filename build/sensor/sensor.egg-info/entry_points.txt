@@ -1,0 +1,4 @@
+[console_scripts]
+gyrosensor = sensor.gyrosensor:main
+sensor_publisher = sensor.sensor_publisher:main
+stp32l = sensor.stp32l:main

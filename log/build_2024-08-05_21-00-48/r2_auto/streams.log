@@ -1,0 +1,34 @@
+[13.218s] Invoking command in '/home/eduhkrobotic2/r2_ros/build/r2_auto': PYTHONPATH=/home/eduhkrobotic2/r2_ros/build/r2_auto/prefix_override:/home/eduhkrobotic2/r2_ros/install/r2_auto/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/eduhkrobotic2/r2_ros/build/r2_auto/build --no-deps symlink_data --force
+[17.433s] running develop
+[17.435s] /home/eduhkrobotic2/.local/lib/python3.10/site-packages/setuptools/command/develop.py:40: EasyInstallDeprecationWarning: easy_install command is deprecated.
+[17.436s] !!
+[17.437s] 
+[17.438s]         ********************************************************************************
+[17.444s]         Please avoid running ``setup.py`` and ``easy_install``.
+[17.445s]         Instead, use pypa/build, pypa/installer or other
+[17.445s]         standards-based tools.
+[17.446s] 
+[17.446s]         See https://github.com/pypa/setuptools/issues/917 for details.
+[17.447s]         ********************************************************************************
+[17.447s] 
+[17.448s] !!
+[17.448s]   easy_install.initialize_options(self)
+[19.848s] running egg_info
+[20.129s] writing r2_auto.egg-info/PKG-INFO
+[20.165s] writing dependency_links to r2_auto.egg-info/dependency_links.txt
+[20.212s] writing entry points to r2_auto.egg-info/entry_points.txt
+[20.262s] writing requirements to r2_auto.egg-info/requires.txt
+[20.306s] writing top-level names to r2_auto.egg-info/top_level.txt
+[21.024s] reading manifest file 'r2_auto.egg-info/SOURCES.txt'
+[21.034s] writing manifest file 'r2_auto.egg-info/SOURCES.txt'
+[21.418s] running build_ext
+[21.418s] Creating /home/eduhkrobotic2/r2_ros/install/r2_auto/lib/python3.10/site-packages/r2-auto.egg-link (link to .)
+[21.421s] Installing omni_pid script to /home/eduhkrobotic2/r2_ros/install/r2_auto/lib/r2_auto
+[21.421s] Installing r2_main_node script to /home/eduhkrobotic2/r2_ros/install/r2_auto/lib/r2_auto
+[21.424s] Installing r2_ps4_node script to /home/eduhkrobotic2/r2_ros/install/r2_auto/lib/r2_auto
+[21.426s] 
+[21.427s] Installed /home/eduhkrobotic2/r2_ros/build/r2_auto
+[21.429s] running symlink_data
+[21.429s] symbolically linking /home/eduhkrobotic2/r2_ros/build/r2_auto/resource/r2_auto -> /home/eduhkrobotic2/r2_ros/install/r2_auto/share/ament_index/resource_index/packages
+[21.431s] symbolically linking /home/eduhkrobotic2/r2_ros/build/r2_auto/package.xml -> /home/eduhkrobotic2/r2_ros/install/r2_auto/share/r2_auto
+[21.684s] Invoked command in '/home/eduhkrobotic2/r2_ros/build/r2_auto' returned '0': PYTHONPATH=/home/eduhkrobotic2/r2_ros/build/r2_auto/prefix_override:/home/eduhkrobotic2/r2_ros/install/r2_auto/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/eduhkrobotic2/r2_ros/build/r2_auto/build --no-deps symlink_data --force

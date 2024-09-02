@@ -1,0 +1,18 @@
+[7.759s] Invoking command in '/home/eduhkrobotic2/r2_ros/build/navigation': PYTHONPATH=/home/eduhkrobotic2/r2_ros/build/navigation/prefix_override:/home/eduhkrobotic2/r2_ros/install/navigation/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/eduhkrobotic2/r2_ros/build/navigation/build --no-deps symlink_data
+[10.044s] running develop
+[11.350s] running egg_info
+[11.352s] writing navigation.egg-info/PKG-INFO
+[11.354s] writing dependency_links to navigation.egg-info/dependency_links.txt
+[11.356s] writing entry points to navigation.egg-info/entry_points.txt
+[11.359s] writing requirements to navigation.egg-info/requires.txt
+[11.361s] writing top-level names to navigation.egg-info/top_level.txt
+[11.372s] reading manifest file 'navigation.egg-info/SOURCES.txt'
+[11.377s] writing manifest file 'navigation.egg-info/SOURCES.txt'
+[11.386s] running build_ext
+[11.388s] Creating /home/eduhkrobotic2/r2_ros/install/navigation/lib/python3.10/site-packages/navigation.egg-link (link to .)
+[11.394s] Installing navigation_node script to /home/eduhkrobotic2/r2_ros/install/navigation/lib/navigation
+[11.396s] Installing omni_pid script to /home/eduhkrobotic2/r2_ros/install/navigation/lib/navigation
+[11.399s] 
+[11.399s] Installed /home/eduhkrobotic2/r2_ros/build/navigation
+[11.401s] running symlink_data
+[11.674s] Invoked command in '/home/eduhkrobotic2/r2_ros/build/navigation' returned '0': PYTHONPATH=/home/eduhkrobotic2/r2_ros/build/navigation/prefix_override:/home/eduhkrobotic2/r2_ros/install/navigation/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/eduhkrobotic2/r2_ros/build/navigation/build --no-deps symlink_data

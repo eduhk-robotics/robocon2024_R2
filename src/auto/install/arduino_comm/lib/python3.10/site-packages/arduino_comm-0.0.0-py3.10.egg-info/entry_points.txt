@@ -1,0 +1,5 @@
+[console_scripts]
+arduino_mega_m3508_comm_node = arduino_comm.arduino_mega_m3508_comm_node:main
+motor_control_publisher = arduino_comm.motor_control_publisher:main
+motor_data_subscriber = arduino_comm.motor_data_subscriber:main
+

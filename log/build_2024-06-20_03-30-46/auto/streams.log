@@ -1,0 +1,30 @@
+[13.365s] Invoking command in '/home/eduhkrobotic2/r2_ros/build/auto': PYTHONPATH=/home/eduhkrobotic2/r2_ros/build/auto/prefix_override:/home/eduhkrobotic2/r2_ros/install/auto/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/eduhkrobotic2/r2_ros/build/auto/build --no-deps symlink_data
+[17.569s] running develop
+[17.572s] /home/eduhkrobotic2/.local/lib/python3.10/site-packages/setuptools/command/develop.py:40: EasyInstallDeprecationWarning: easy_install command is deprecated.
+[17.573s] !!
+[17.575s] 
+[17.576s]         ********************************************************************************
+[17.577s]         Please avoid running ``setup.py`` and ``easy_install``.
+[17.579s]         Instead, use pypa/build, pypa/installer or other
+[17.581s]         standards-based tools.
+[17.582s] 
+[17.583s]         See https://github.com/pypa/setuptools/issues/917 for details.
+[17.584s]         ********************************************************************************
+[17.587s] 
+[17.588s] !!
+[17.589s]   easy_install.initialize_options(self)
+[21.831s] running egg_info
+[22.043s] writing auto.egg-info/PKG-INFO
+[22.047s] writing dependency_links to auto.egg-info/dependency_links.txt
+[22.051s] writing entry points to auto.egg-info/entry_points.txt
+[22.052s] writing requirements to auto.egg-info/requires.txt
+[22.053s] writing top-level names to auto.egg-info/top_level.txt
+[22.583s] reading manifest file 'auto.egg-info/SOURCES.txt'
+[22.587s] writing manifest file 'auto.egg-info/SOURCES.txt'
+[22.935s] running build_ext
+[22.936s] Creating /home/eduhkrobotic2/r2_ros/install/auto/lib/python3.10/site-packages/auto.egg-link (link to .)
+[22.944s] Installing webcam_node script to /home/eduhkrobotic2/r2_ros/install/auto/lib/auto
+[22.950s] 
+[22.952s] Installed /home/eduhkrobotic2/r2_ros/build/auto
+[22.954s] running symlink_data
+[23.394s] Invoked command in '/home/eduhkrobotic2/r2_ros/build/auto' returned '0': PYTHONPATH=/home/eduhkrobotic2/r2_ros/build/auto/prefix_override:/home/eduhkrobotic2/r2_ros/install/auto/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/eduhkrobotic2/r2_ros/build/auto/build --no-deps symlink_data

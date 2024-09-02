@@ -1,0 +1,33 @@
+[13.198s] Invoking command in '/home/eduhkrobotic2/r2_ros/build/ps4': PYTHONPATH=/home/eduhkrobotic2/r2_ros/build/ps4/prefix_override:/home/eduhkrobotic2/r2_ros/install/ps4/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/eduhkrobotic2/r2_ros/build/ps4/build --no-deps symlink_data --force
+[17.935s] running develop
+[17.938s] /home/eduhkrobotic2/.local/lib/python3.10/site-packages/setuptools/command/develop.py:40: EasyInstallDeprecationWarning: easy_install command is deprecated.
+[17.940s] !!
+[17.941s] 
+[17.942s]         ********************************************************************************
+[17.942s]         Please avoid running ``setup.py`` and ``easy_install``.
+[17.942s]         Instead, use pypa/build, pypa/installer or other
+[17.943s]         standards-based tools.
+[17.944s] 
+[17.944s]         See https://github.com/pypa/setuptools/issues/917 for details.
+[17.945s]         ********************************************************************************
+[17.945s] 
+[17.946s] !!
+[17.948s]   easy_install.initialize_options(self)
+[22.561s] running egg_info
+[22.766s] writing ps4.egg-info/PKG-INFO
+[22.770s] writing dependency_links to ps4.egg-info/dependency_links.txt
+[22.772s] writing entry points to ps4.egg-info/entry_points.txt
+[22.774s] writing requirements to ps4.egg-info/requires.txt
+[22.775s] writing top-level names to ps4.egg-info/top_level.txt
+[23.215s] reading manifest file 'ps4.egg-info/SOURCES.txt'
+[23.218s] writing manifest file 'ps4.egg-info/SOURCES.txt'
+[23.619s] running build_ext
+[23.620s] Creating /home/eduhkrobotic2/r2_ros/install/ps4/lib/python3.10/site-packages/ps4.egg-link (link to .)
+[23.624s] Installing ps4_publisher script to /home/eduhkrobotic2/r2_ros/install/ps4/lib/ps4
+[23.626s] Installing ps4_subscriber script to /home/eduhkrobotic2/r2_ros/install/ps4/lib/ps4
+[23.628s] 
+[23.629s] Installed /home/eduhkrobotic2/r2_ros/build/ps4
+[23.630s] running symlink_data
+[23.632s] symbolically linking /home/eduhkrobotic2/r2_ros/build/ps4/resource/ps4 -> /home/eduhkrobotic2/r2_ros/install/ps4/share/ament_index/resource_index/packages
+[23.634s] symbolically linking /home/eduhkrobotic2/r2_ros/build/ps4/package.xml -> /home/eduhkrobotic2/r2_ros/install/ps4/share/ps4
+[24.496s] Invoked command in '/home/eduhkrobotic2/r2_ros/build/ps4' returned '0': PYTHONPATH=/home/eduhkrobotic2/r2_ros/build/ps4/prefix_override:/home/eduhkrobotic2/r2_ros/install/ps4/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/eduhkrobotic2/r2_ros/build/ps4/build --no-deps symlink_data --force

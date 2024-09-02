@@ -1,0 +1,26 @@
+[3.002s] Invoking command in '/home/eduhkrobotic2/r2_ros/src/arduino_comm': PYTHONPATH=/home/eduhkrobotic2/r2_ros/build/arduino_comm/prefix_override:/home/eduhkrobotic2/r2_ros/install/arduino_comm/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/arduino_comm build --build-base /home/eduhkrobotic2/r2_ros/build/arduino_comm/build install --record /home/eduhkrobotic2/r2_ros/build/arduino_comm/install.log --single-version-externally-managed install_data
+[4.198s] running egg_info
+[4.201s] writing ../../build/arduino_comm/arduino_comm.egg-info/PKG-INFO
+[4.202s] writing dependency_links to ../../build/arduino_comm/arduino_comm.egg-info/dependency_links.txt
+[4.203s] writing entry points to ../../build/arduino_comm/arduino_comm.egg-info/entry_points.txt
+[4.204s] writing requirements to ../../build/arduino_comm/arduino_comm.egg-info/requires.txt
+[4.205s] writing top-level names to ../../build/arduino_comm/arduino_comm.egg-info/top_level.txt
+[4.213s] reading manifest file '../../build/arduino_comm/arduino_comm.egg-info/SOURCES.txt'
+[4.217s] writing manifest file '../../build/arduino_comm/arduino_comm.egg-info/SOURCES.txt'
+[4.217s] running build
+[4.218s] running build_py
+[4.218s] copying arduino_comm/arduino_mega_m3508_comm_node.py -> /home/eduhkrobotic2/r2_ros/build/arduino_comm/build/lib/arduino_comm
+[4.220s] running install
+[4.221s] running install_lib
+[4.225s] copying /home/eduhkrobotic2/r2_ros/build/arduino_comm/build/lib/arduino_comm/arduino_mega_m3508_comm_node.py -> /home/eduhkrobotic2/r2_ros/install/arduino_comm/lib/python3.10/site-packages/arduino_comm
+[4.228s] byte-compiling /home/eduhkrobotic2/r2_ros/install/arduino_comm/lib/python3.10/site-packages/arduino_comm/arduino_mega_m3508_comm_node.py to arduino_mega_m3508_comm_node.cpython-310.pyc
+[4.232s] running install_data
+[4.232s] running install_egg_info
+[4.239s] removing '/home/eduhkrobotic2/r2_ros/install/arduino_comm/lib/python3.10/site-packages/arduino_comm-0.0.0-py3.10.egg-info' (and everything under it)
+[4.241s] Copying ../../build/arduino_comm/arduino_comm.egg-info to /home/eduhkrobotic2/r2_ros/install/arduino_comm/lib/python3.10/site-packages/arduino_comm-0.0.0-py3.10.egg-info
+[4.246s] running install_scripts
+[4.328s] Installing arduino_mega_m3508_comm_node script to /home/eduhkrobotic2/r2_ros/install/arduino_comm/lib/arduino_comm
+[4.328s] Installing motor_control_publisher script to /home/eduhkrobotic2/r2_ros/install/arduino_comm/lib/arduino_comm
+[4.329s] Installing motor_data_subscriber script to /home/eduhkrobotic2/r2_ros/install/arduino_comm/lib/arduino_comm
+[4.331s] writing list of installed files to '/home/eduhkrobotic2/r2_ros/build/arduino_comm/install.log'
+[4.471s] Invoked command in '/home/eduhkrobotic2/r2_ros/src/arduino_comm' returned '0': PYTHONPATH=/home/eduhkrobotic2/r2_ros/build/arduino_comm/prefix_override:/home/eduhkrobotic2/r2_ros/install/arduino_comm/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/arduino_comm build --build-base /home/eduhkrobotic2/r2_ros/build/arduino_comm/build install --record /home/eduhkrobotic2/r2_ros/build/arduino_comm/install.log --single-version-externally-managed install_data
