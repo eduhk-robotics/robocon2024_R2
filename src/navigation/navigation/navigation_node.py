@@ -1,5 +1,11 @@
 #!/usr/bin/env python3
-
+# This program subscribe to topic "ps4" as follow:
+# left_analog_horizontal = self.apply_deadzone(msg.axes[0])
+# left_analog_vertical = self.apply_deadzone(msg.axes[1])
+# right_analog_horizontal = self.apply_deadzone(msg.axes[3])
+#
+# Then it publish message to topic "driving" as follow:
+# driving_msg.data = [float(direction), float(plane_speed), float(rotation_speed)]
 import rclpy
 from rclpy.node import Node
 from sensor_msgs.msg import Joy
